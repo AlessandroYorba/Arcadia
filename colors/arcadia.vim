@@ -149,13 +149,12 @@ highlight! Constant               guifg=#0087af  guibg=NONE     gui=NONE       c
 highlight! Type                   guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30     ctermbg=NONE  cterm=NONE
 highlight! Special                guifg=#8787af  guibg=NONE     gui=NONE       ctermfg=103    ctermbg=NONE  cterm=NONE
 highlight! Question               guifg=#dfaf5f  guibg=NONE     gui=NONE       ctermfg=179    ctermbg=NONE  cterm=NONE
-highlight! Underlined             guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 highlight! WarningMsg             guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167    ctermbg=NONE  cterm=NONE
 highlight! Error                  guifg=#af005f  guibg=NONE     gui=reverse    ctermfg=125    ctermbg=NONE  cterm=reverse
 highlight! SignColumn             guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108    ctermbg=NONE  cterm=NONE
 highlight! Visual                 guifg=#1c1c1c  guibg=#008787  gui=NONE       ctermfg=234    ctermbg=30    cterm=NONE
 highlight! Todo                   guifg=#8787d7  guibg=#1c1c1c  gui=reverse    ctermfg=104    ctermbg=234   cterm=reverse
-highlight! Search                 guifg=#008787  guibg=#1c1c1c  gui=reverse    ctermfg=30     ctermbg=234   cterm=reverse
+highlight! Search                 guifg=#dfaf00  guibg=#1c1c1c  gui=reverse    ctermfg=178    ctermbg=234   cterm=reverse
 highlight! DiffAdd                guifg=#afafd7  guibg=NONE     gui=reverse    ctermfg=146    ctermbg=NONE  cterm=reverse
 highlight! DiffChange             guifg=#5f5f87  guibg=NONE     gui=reverse    ctermfg=60     ctermbg=NONE  cterm=reverse
 highlight! DiffText               guifg=#8787af  guibg=NONE     gui=reverse    ctermfg=103    ctermbg=NONE  cterm=reverse
@@ -175,6 +174,7 @@ highlight! link htmlItalic        PreProc
 highlight! link ErrorMsg          PreProc
 highlight! link MatchParen        Visual
 highlight! link WildMenu          Search
+highlight! link Underlined        Question
 highlight! link ModeMsg           Statement
 highlight! link FoldColumn        Identifier
 highlight! link MoreMsg           Question
