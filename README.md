@@ -7,6 +7,7 @@
 
 ```VimL
 colorscheme arcadia 
+```
 :crescent_moon: Nightly Build
 ----------------------------
 pre-release version [here](https://github.com/AlessandroYorba/Arcadia/tree/nightly)
