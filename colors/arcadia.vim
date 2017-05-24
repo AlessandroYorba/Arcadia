@@ -94,14 +94,6 @@ if !exists("g:arcadia_Pitch")
     let g:arcadia_Pitch = 0
 endif
 
-if !exists("g:arcadia_Clear_Skies")
-    let g:arcadia_Clear_Skies = 0
-endif
-
-if !exists("g:arcadia_Nevada")
-    let g:arcadia_Nevada = 0
-endif
-
 if !exists("g:arcadia_Campfire")
     let g:arcadia_Campfire = 0
 endif
