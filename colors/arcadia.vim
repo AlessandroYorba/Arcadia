@@ -38,26 +38,26 @@
 "=================================================================================
 " ARCADIA TERMINAL:
 "=================================================================================
-"     Foreground    #             |      Selection     #             |
-"     Background    #             |      Selected Text #             |
-"     Bold          #             |                                        |
-"     Links         #             |                                        |
-"     CursorColor   #             |                                        |
-"     CursorText    #             |                                        |
+"     Foreground    #e4e4e4             |      Selection     #dfaf00             |
+"     Background    #303030             |      Selected Text #1c1c1c             |
+"     Bold          #ffffff             |                                        |
+"     Links         #005cbb             |                                        |
+"     CursorColor   #dfdfdf             |                                        |
+"     CursorText    #303030             |                                        |
 "=================================================================================
 " ANSI COLORS:                                                                   |
 "=================================================================================
 "---------------------------------------|-----------------------------------------
 "     NORMAL        Hex          xterm  |      BRIGHT        Hex          xterm  |
 "---------------------------------------|-----------------------------------------
-"     Black         #      0      |      brBlack       #      8      |
-"     Red           #      1      |      brRed         #      9      |
-"     Green         #      2      |      brGreen       #      10     |
-"     Yellow        #      3      |      brYellow      #      11     |
-"     Blue          #      4      |      brBlue        #      12     |
-"     Magenta       #      5      |      brMagenta     #      13     |
-"     Cyan          #      6      |      brCyan        #      14     |
-"     White         #      7      |      brWhite       #      15     |
+"     Black         #303030      0      |      brBlack       #6c6c6c      8      |
+"     Red           #af1c5f      1      |      brRed         #af1c5f      9      |
+"     Green         #008787      2      |      brGreen       #008787      10     |
+"     Yellow        #dfaf00      3      |      brYellow      #dfaf00      11     |
+"     Blue          #5f87af      4      |      brBlue        #5f87af      12     |
+"     Magenta       #875f87      5      |      brMagenta     #875f87      13     |
+"     Cyan          #0087af      6      |      brCyan        #0087af      14     |
+"     White         #e4e4e4      7      |      brWhite       #e4e4e4      15     |
 "---------------------------------------|-----------------------------------------
 "=================================================================================
 
@@ -140,13 +140,13 @@ endif
 "================================================================================
 
 highlight! PreProc                guifg=#8787d7  guibg=NONE     gui=NONE       ctermfg=104    ctermbg=NONE  cterm=NONE
-highlight! String                 guifg=#875f87  guibg=NONE     gui=NONE       ctermfg=96     ctermbg=NONE  cterm=NONE
+highlight! Type                   guifg=#875f87  guibg=NONE     gui=NONE       ctermfg=96     ctermbg=NONE  cterm=NONE
 highlight! Function               guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
 highlight! Identifier             guifg=#8787af  guibg=NONE     gui=NONE       ctermfg=103    ctermbg=NONE  cterm=NONE
 highlight! Statement              guifg=#5f87af  guibg=NONE     gui=NONE       ctermfg=67     ctermbg=NONE  cterm=NONE
 highlight! Operator               guifg=#5f5faf  guibg=NONE     gui=NONE       ctermfg=61     ctermbg=NONE  cterm=NONE
 highlight! Constant               guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
-highlight! Type                   guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30     ctermbg=NONE  cterm=NONE
+highlight! String                 guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30     ctermbg=NONE  cterm=NONE
 highlight! Special                guifg=#8787af  guibg=NONE     gui=NONE       ctermfg=103    ctermbg=NONE  cterm=NONE
 highlight! Question               guifg=#dfaf5f  guibg=NONE     gui=NONE       ctermfg=179    ctermbg=NONE  cterm=NONE
 highlight! WarningMsg             guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167    ctermbg=NONE  cterm=NONE
