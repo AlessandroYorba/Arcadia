@@ -11,3 +11,11 @@ colorscheme arcadia
 :crescent_moon: Nightly Build
 ----------------------------
 pre-release version [here](https://github.com/AlessandroYorba/Arcadia/tree/nightly)
+
+:octopus: Moar Colorschemes
+-------
+[Alduin](https://github.com/AlessandroYorba/Alduin)<br>
+[Despacio](https://github.com/AlessandroYorba/Despacio)<br>
+[Sierra](https://github.com/AlessandroYorba/Sierra)<br>
+[Monrovia](https://github.com/AlessandroYorba/Monrovia)<br>
+[Sidonia](https://github.com/AlessandroYorba/Sidonia)
