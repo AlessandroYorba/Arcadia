@@ -168,18 +168,19 @@ highlight! SpellRare              guifg=#ff8700  guibg=NONE     gui=undercurl  c
 
 highlight! SpecialComment         guifg=#5f5f87  guibg=NONE     gui=reverse    ctermfg=60     ctermbg=NONE  cterm=reverse
 
-highlight! link Directory         PreProc
 highlight! link Title             PreProc
 highlight! link htmlItalic        PreProc
 highlight! link ErrorMsg          PreProc
-highlight! link MatchParen        Visual
+highlight! link MatchParen        Search
 highlight! link WildMenu          Search
 highlight! link Underlined        Question
 highlight! link ModeMsg           Statement
+highlight! link Directory         Statement
 highlight! link FoldColumn        Identifier
 highlight! link MoreMsg           Question
 highlight! link CursorLineNr      SpecialComment
 highlight! link VimCommentTitle   SpecialComment
+highlight! link netrwExe          String
 
 "================================================================================
 " DAY:
