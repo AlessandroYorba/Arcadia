@@ -12,6 +12,10 @@ colorscheme arcadia
 ----------------------------
 pre-release version [here](https://github.com/AlessandroYorba/Arcadia/tree/nightly)
 
+:octocat: Special Thanks
+-----------------
+[Terminal Theme by Michael Reinhardt](https://github.com/mreinhardt)<br>
+
 :octopus: Moar Colorschemes
 -------
 [Alduin](https://github.com/AlessandroYorba/Alduin)<br>
