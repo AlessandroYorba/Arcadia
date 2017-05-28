@@ -38,7 +38,7 @@
 "=================================================================================
 " ARCADIA TERMINAL:
 "=================================================================================
-"     Foreground    #e4e4e4             |      Selection     #dfaf00             |
+"     Foreground    #e4e4e4             |      Selection     #008787             |
 "     Background    #303030             |      Selected Text #1c1c1c             |
 "     Bold          #ffffff             |                                        |
 "     Links         #005cbb             |                                        |
@@ -51,13 +51,13 @@
 "     NORMAL        Hex          xterm  |      BRIGHT        Hex          xterm  |
 "---------------------------------------|-----------------------------------------
 "     Black         #303030      0      |      brBlack       #6c6c6c      8      |
-"     Red           #af1c5f      1      |      brRed         #af1c5f      9      |
-"     Green         #008787      2      |      brGreen       #008787      10     |
-"     Yellow        #dfaf00      3      |      brYellow      #dfaf00      11     |
-"     Blue          #5f87af      4      |      brBlue        #5f87af      12     |
-"     Magenta       #875f87      5      |      brMagenta     #875f87      13     |
-"     Cyan          #0087af      6      |      brCyan        #0087af      14     |
-"     White         #e4e4e4      7      |      brWhite       #e4e4e4      15     |
+"     Red           #870f1c      1      |      brRed         #af1c5f      9      |
+"     Green         #1c5f5f      2      |      brGreen       #008787      10     |
+"     Yellow        #af871c      3      |      brYellow      #dfaf00      11     |
+"     Blue          #1c5f87      4      |      brBlue        #5f87af      12     |
+"     Magenta       #5f1c5f      5      |      brMagenta     #875f87      13     |
+"     Cyan          #005f87      6      |      brCyan        #0087af      14     |
+"     White         #afafaf      7      |      brWhite       #e4e4e4      15     |
 "---------------------------------------|-----------------------------------------
 "=================================================================================
 
