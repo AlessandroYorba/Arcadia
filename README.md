@@ -3,7 +3,7 @@
 :space_invader: Set Up
 ------
 
-###### Grey Background [Screenshot](https://cloud.githubusercontent.com/assets/11221489/26561610/97dd6fe2-4474-11e7-9e29-bad1aa3de429.png)
+###### Grey Background
 
 ```VimL
 colorscheme arcadia 
