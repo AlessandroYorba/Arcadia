@@ -1,37 +1,43 @@
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/26561610/97dd6fe2-4474-11e7-9e29-bad1aa3de429.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/26616670/313fb3c8-4585-11e7-991e-9c0a107788bd.png)
 
 :space_invader: Set Up
 ------
 
-###### Grey Background
-
+###### Day Mode - Grey Background
 ```VimL
 colorscheme arcadia 
 ```
 
-###### Dark Grey Background
+###### Sunset Mode - Dark Grey Background
 ```VimL
 let g:arcadia_Sunset = 1
 colorscheme arcadia 
 ```
 
-###### Darker Grey Background
+###### Twilight Mode - Darker Grey Background
 ```VimL
 let g:arcadia_Twilight = 1
 colorscheme arcadia 
 ```
 
-###### Almost Black Background
+###### Midnight Mode - Almost Black Background
 ```VimL
 let g:arcadia_Midnight = 1
 colorscheme arcadia 
 ```
 
-###### Black Background
+###### Pitch Mode - Black Background
 ```VimL
 let g:arcadia_Pitch = 1
 colorscheme arcadia 
 ```
+
+######  Campfire Mode - Automatically cycles thru modes depending on time of day
+```VimL
+let g:arcadia_Campfire = 1
+colorscheme arcadia 
+```
+
 :crescent_moon: Nightly Build
 ----------------------------
 pre-release version [here](https://github.com/AlessandroYorba/Arcadia/tree/nightly)
