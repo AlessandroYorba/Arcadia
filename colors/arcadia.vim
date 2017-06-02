@@ -164,13 +164,13 @@ highlight! Search                 guifg=#dfaf00  guibg=#1c1c1c  gui=reverse    c
 highlight! MatchParen             guifg=#dfaf00  guibg=#1c1c1c  gui=reverse    ctermfg=178    ctermbg=234   cterm=reverse
 highlight! WildMenu               guifg=#dfaf00  guibg=#1c1c1c  gui=reverse    ctermfg=178    ctermbg=234   cterm=reverse
 
+highlight! WarningMsg             guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 highlight! Question               guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 highlight! Underlined             guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 highlight! MoreMsg                guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 
 highlight! Type                   guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
 highlight! ErrorMsg               guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
-highlight! WarningMsg             guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
 highlight! Error                  guifg=#af005f  guibg=NONE     gui=reverse    ctermfg=125    ctermbg=NONE  cterm=reverse
 
 highlight! SignColumn             guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108    ctermbg=NONE  cterm=NONE
