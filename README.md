@@ -53,4 +53,4 @@ pre-release version [here](https://github.com/AlessandroYorba/Arcadia/tree/night
 [Sierra](https://github.com/AlessandroYorba/Sierra)<br>
 [Monrovia](https://github.com/AlessandroYorba/Monrovia)<br>
 [Sidonia](https://github.com/AlessandroYorba/Sidonia)<br>
-[Absolute](https://github/com/AlessandroYorba/Absolute)
+[Absolute](https://github.com/AlessandroYorba/Absolute)
