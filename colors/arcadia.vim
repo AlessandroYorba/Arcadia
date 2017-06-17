@@ -98,54 +98,12 @@ if !exists("g:arcadia_Daybreak")
     let g:arcadia_Daybreak = 0
 endif
 
-if !exists("g:arcadia_Campfire")
-    let g:arcadia_Campfire = 0
-endif
-
-"================================================================================
-" CAMPFIRE:
-"================================================================================
-if g:arcadia_Campfire
-    let arcadia_Hour = strftime("%H")
-    "Day: 7am - 5pm
-    if 7 <= arcadia_Hour && arcadia_Hour < 17
-        let g:arcadia_Sunset = 0
-        let g:arcadia_Twilight = 0
-        let g:arcadia_Midnight = 0
-        let g:arcadia_Pitch = 0
-    "Sunset: 5pm - 7pm
-    elseif 17 <= arcadia_Hour && arcadia_Hour < 19
-        let g:arcadia_Sunset = 1
-        let g:arcadia_Twilight = 0
-        let g:arcadia_Midnight = 0
-        let g:arcadia_Pitch = 0
-    "Twilight: 7pm - 9pm
-    elseif 19 <= arcadia_Hour && arcadia_Hour < 21
-        let g:arcadia_Sunset = 0
-        let g:arcadia_Twilight = 1
-        let g:arcadia_Midnight = 0
-        let g:arcadia_Pitch = 0
-    "Midnight: 9pm - 12am
-    elseif 21 <= arcadia_Hour && arcadia_Hour < 24
-        let g:arcadia_Sunset = 0
-        let g:arcadia_Twilight = 0
-        let g:arcadia_Midnight = 1
-        let g:arcadia_Pitch = 0
-    "Pitch: 12am - 7am
-    else
-        let g:arcadia_Sunset = 0
-        let g:arcadia_Twilight = 0
-        let g:arcadia_Midnight = 0
-        let g:arcadia_Pitch = 1
-    endif
-endif
 "================================================================================
 " ARCADIA HIGHLIGHTING:
 "================================================================================
 
 highlight! PreProc                guifg=#8787d7  guibg=NONE     gui=NONE       ctermfg=104    ctermbg=NONE  cterm=NONE
 highlight! Title                  guifg=#8787d7  guibg=NONE     gui=NONE       ctermfg=104    ctermbg=NONE  cterm=NONE
-highlight! htmlItalic             guifg=#8787d7  guibg=NONE     gui=NONE       ctermfg=104    ctermbg=NONE  cterm=NONE
 
 highlight! Identifier             guifg=#8787af  guibg=NONE     gui=NONE       ctermfg=103    ctermbg=NONE  cterm=NONE
 highlight! FoldColumn             guifg=#8787af  guibg=NONE     gui=NONE       ctermfg=103    ctermbg=NONE  cterm=NONE
@@ -176,7 +134,9 @@ highlight! Type                   guifg=#af005f  guibg=NONE     gui=NONE       c
 highlight! ErrorMsg               guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
 highlight! Error                  guifg=#e4e4e4  guibg=#af005f  gui=reverse    ctermfg=254    ctermbg=125  cterm=reverse
 
-    highlight! Label                guifg=#af8787  guibg=NONE     gui=NONE      ctermfg=138    ctermbg=NONE  cterm=NONE
+highlight! Label                  guifg=#af8787  guibg=NONE     gui=NONE      ctermfg=138    ctermbg=NONE  cterm=NONE
+highlight! htmlItalic             guifg=#af8787  guibg=NONE     gui=NONE      ctermfg=138    ctermbg=NONE  cterm=NONE
+
 highlight! Underlined             guifg=#d7875f  guibg=NONE     gui=NONE       ctermfg=173    ctermbg=NONE  cterm=NONE
 highlight! SignColumn             guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108    ctermbg=NONE  cterm=NONE
 highlight! Visual                 guifg=#1c1c1c  guibg=#008787  gui=NONE       ctermfg=234    ctermbg=30    cterm=NONE
