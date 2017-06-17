@@ -94,6 +94,10 @@ if !exists("g:arcadia_Pitch")
     let g:arcadia_Pitch = 0
 endif
 
+if !exists("g:arcadia_Daybreak")
+    let g:arcadia_Daybreak = 0
+endif
+
 if !exists("g:arcadia_Campfire")
     let g:arcadia_Campfire = 0
 endif
@@ -166,13 +170,13 @@ highlight! WildMenu               guifg=#dfaf00  guibg=#1c1c1c  gui=reverse    c
 
 highlight! WarningMsg             guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 highlight! Question               guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
-highlight! Underlined             guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 highlight! MoreMsg                guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 
 highlight! Type                   guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
 highlight! ErrorMsg               guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
 highlight! Error                  guifg=#e4e4e4  guibg=#af005f  gui=reverse    ctermfg=254    ctermbg=125  cterm=reverse
 
+highlight! Underlined             guifg=#d7875f  guibg=NONE     gui=NONE       ctermfg=173    ctermbg=NONE  cterm=NONE
 highlight! SignColumn             guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108    ctermbg=NONE  cterm=NONE
 highlight! Visual                 guifg=#1c1c1c  guibg=#008787  gui=NONE       ctermfg=234    ctermbg=30    cterm=NONE
 highlight! Todo                   guifg=#8787d7  guibg=#1c1c1c  gui=reverse    ctermfg=104    ctermbg=234   cterm=reverse
@@ -348,4 +352,36 @@ if g:arcadia_Pitch
 
     highlight! Comment              guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
     highlight! Folded               guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
+endif
+
+"
+"================================================================================
+" DAYBREAK:
+"================================================================================
+if g:arcadia_Daybreak
+    highlight! CursorLine           guifg=NONE     guibg=#eeeeee  gui=NONE      ctermfg=NONE  ctermbg=255   cterm=NONE
+    highlight! CursorColumn         guifg=NONE     guibg=#eeeeee  gui=NONE      ctermfg=NONE  ctermbg=255   cterm=NONE
+    highlight! ColorColumn          guifg=NONE     guibg=#eeeeee  gui=NONE      ctermfg=NONE  ctermbg=255   cterm=NONE
+
+    highlight! StatusLine           guifg=#eeeeee  guibg=#5f87af  gui=NONE      ctermfg=255   ctermbg=67    cterm=NONE
+    highlight! TabLineSel           guifg=#eeeeee  guibg=#5f87af  gui=NONE      ctermfg=255   ctermbg=67    cterm=NONE
+    highlight! PmenuSel             guifg=#eeeeee  guibg=#5f87af  gui=NONE      ctermfg=255   ctermbg=67    cterm=NONE
+
+    highlight! StatusLineNC         guifg=#5f87af  guibg=#dadada  gui=NONE      ctermfg=67    ctermbg=253   cterm=NONE
+    highlight! TabLine              guifg=#5f87af  guibg=#dadada  gui=NONE      ctermfg=67    ctermbg=253   cterm=NONE
+    highlight! Pmenu                guifg=#87afd7  guibg=#5f87af  gui=NONE      ctermfg=110    ctermbg=67    cterm=NONE
+    highlight! LineNr               guifg=#bcbcbc  guibg=#eeeeee  gui=NONE      ctermfg=250   ctermbg=255   cterm=NONE
+
+    highlight! NonText              guifg=#bcbcbc  guibg=NONE     gui=NONE      ctermfg=250   ctermbg=NONE  cterm=NONE
+    highlight! SpecialKey           guifg=#bcbcbc  guibg=NONE     gui=NONE      ctermfg=250   ctermbg=NONE  cterm=NONE
+
+    highlight! PmenuSbar            guifg=#5f87af  guibg=#5f87af  gui=NONE      ctermfg=67    ctermbg=67    cterm=NONE
+    highlight! PmenuThumb           guifg=#5f87af  guibg=#5f87af  gui=NONE      ctermfg=67    ctermbg=67    cterm=NONE
+    highlight! VertSplit            guifg=#bcbcbc  guibg=NONE     gui=NONE      ctermfg=250    ctermbg=NONE  cterm=NONE
+
+    highlight! Comment              guifg=#b2b2b2  guibg=NONE     gui=NONE      ctermfg=249   ctermbg=NONE  cterm=NONE
+    highlight! Folded               guifg=#767676  guibg=NONE     gui=NONE      ctermfg=243   ctermbg=NONE  cterm=NONE
+
+    highlight! TabLineFill          guifg=#005f87  guibg=#dadada  gui=NONE      ctermfg=24    ctermbg=253   cterm=NONE
+    highlight! Normal               guifg=#6c6c6c  guibg=#e4e4e4  gui=NONE      ctermfg=242   ctermbg=254   cterm=NONE
 endif
