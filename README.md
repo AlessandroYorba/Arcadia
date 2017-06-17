@@ -1,4 +1,5 @@
 ![Screenshot](https://user-images.githubusercontent.com/11221489/27158300-210221b6-511b-11e7-96df-95aa65e106d2.png)
+![Screenshot](https://user-images.githubusercontent.com/11221489/27249886-43e2d6ca-52d4-11e7-9593-86607aeae63e.png)
 
 :space_invader: Set Up
 ------
@@ -29,6 +30,12 @@ colorscheme arcadia
 ###### Pitch Mode - Black Background
 ```VimL
 let g:arcadia_Pitch = 1
+colorscheme arcadia 
+```
+
+###### Daybreak Mode - Ivory Background
+```VimL
+let g:arcadia_Daybreak = 1
 colorscheme arcadia 
 ```
 
