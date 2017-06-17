@@ -176,6 +176,7 @@ highlight! Type                   guifg=#af005f  guibg=NONE     gui=NONE       c
 highlight! ErrorMsg               guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
 highlight! Error                  guifg=#e4e4e4  guibg=#af005f  gui=reverse    ctermfg=254    ctermbg=125  cterm=reverse
 
+    highlight! Label                guifg=#af8787  guibg=NONE     gui=NONE      ctermfg=138    ctermbg=NONE  cterm=NONE
 highlight! Underlined             guifg=#d7875f  guibg=NONE     gui=NONE       ctermfg=173    ctermbg=NONE  cterm=NONE
 highlight! SignColumn             guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108    ctermbg=NONE  cterm=NONE
 highlight! Visual                 guifg=#1c1c1c  guibg=#008787  gui=NONE       ctermfg=234    ctermbg=30    cterm=NONE
