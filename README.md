@@ -15,9 +15,9 @@ let g:arcadia_Daybreak = 1
 colorscheme arcadia 
 ```
 
-:crescent_moon: Nightly Build
+:crescent_moon: Dev Build
 ----------------------------
-pre-release version [here](https://github.com/AlessandroYorba/Arcadia/tree/nightly)
+Development branch [here](https://github.com/AlessandroYorba/Arcadia/tree/nightly)
 
 :octocat: Special Thanks
 -----------------
@@ -30,4 +30,3 @@ pre-release version [here](https://github.com/AlessandroYorba/Arcadia/tree/night
 [Sierra](https://github.com/AlessandroYorba/Sierra)<br>
 [Monrovia](https://github.com/AlessandroYorba/Monrovia)<br>
 [Sidonia](https://github.com/AlessandroYorba/Sidonia)<br>
-[Absolute](https://github.com/AlessandroYorba/Absolute)
