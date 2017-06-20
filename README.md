@@ -4,16 +4,32 @@
 :space_invader: Set Up
 ------
 
-###### Day Mode - Grey Background
+###### Modes 
+The default UI for Arcadia is a dark grey UI ( see screenshot above ). However, depending on certain lighting conditions, time of day or personal preference you might want to try some of the darker or lighter versions that are available to you. To enable, add one of the follow settings to your .vimrc 
+
 ```VimL
-colorscheme arcadia 
+"Darker Grey:
+let g:arcadia_Sunset = 1
+colorscheme arcadia
+
+"Darkest Grey:
+let g:arcadia_Twilight = 1
+colorscheme arcadia
+
+"Amost Black:
+let g:arcadia_Midnight = 1
+colorscheme arcadia
+
+"Black:
+let g:arcadia_Pitch = 1
+colorscheme arcadia
+
+"Ivory Background:
+let g:arcadia_Daybreak = 1
+colorscheme arcadia
+
 ```
 
-###### Daybreak Mode - Ivory Background
-```VimL
-let g:arcadia_Daybreak = 1
-colorscheme arcadia 
-```
 
 :crescent_moon: Dev Build
 ----------------------------
