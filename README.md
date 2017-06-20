@@ -4,9 +4,11 @@
 colorscheme arcadia
 ```
 
+<br>
 ![Screenshot](https://user-images.githubusercontent.com/11221489/27309976-dd9567c2-550b-11e7-9f68-670e047fd60a.png)
 
 ```VimL
+"Ivory Background:
 let g:arcadia_Daybreak = 1
 colorscheme arcadia
 ```
