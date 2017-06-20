@@ -154,7 +154,7 @@ highlight! Error                  guifg=#af5f5f  guibg=#e4e4e4  gui=reverse    c
 
 highlight! htmlItalic             guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
 highlight! Label                  guifg=#005f87  guibg=NONE     gui=NONE       ctermfg=24     ctermbg=NONE  cterm=NONE
-highlight! MatchParen             guifg=#008787  guibg=#1c1c1c  gui=reverse    ctermfg=30     ctermbg=234   cterm=reverse
+highlight! MatchParen             guifg=NONE     guibg=NONE     gui=reverse    ctermfg=NONE   ctermbg=NONE  cterm=reverse
 highlight! SignColumn             guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108    ctermbg=NONE  cterm=NONE
 highlight! Todo                   guifg=#8787d7  guibg=#1c1c1c  gui=reverse    ctermfg=104    ctermbg=234   cterm=reverse
 
@@ -341,12 +341,12 @@ if g:arcadia_Daybreak
     highlight! CursorColumn         guifg=NONE     guibg=#eeeeee  gui=NONE      ctermfg=NONE  ctermbg=255   cterm=NONE
     highlight! ColorColumn          guifg=NONE     guibg=#eeeeee  gui=NONE      ctermfg=NONE  ctermbg=255   cterm=NONE
 
-    highlight! StatusLine           guifg=#eeeeee  guibg=#5f87af  gui=NONE      ctermfg=255   ctermbg=67    cterm=NONE
+    highlight! StatusLine           guifg=#eeeeee  guibg=#5f5f87  gui=NONE      ctermfg=255   ctermbg=60    cterm=NONE
     highlight! PmenuSel             guifg=#eeeeee  guibg=#5f87af  gui=NONE      ctermfg=255   ctermbg=67    cterm=NONE
 
     highlight! StatusLineNC         guifg=#5f87af  guibg=#dadada  gui=NONE      ctermfg=67    ctermbg=253   cterm=NONE
-    highlight! VertSplit            guifg=#bcbcbc  guibg=NONE     gui=NONE      ctermfg=250   ctermbg=NONE  cterm=NONE
-    highlight! TabLine              guifg=#b2b2b2  guibg=#dadada  gui=NONE      ctermfg=249    ctermbg=253   cterm=NONE
+    highlight! VertSplit            guifg=#bcbcbc  guibg=#dadada  gui=NONE      ctermfg=250   ctermbg=253  cterm=NONE
+    highlight! TabLine              guifg=#b2b2b2  guibg=#dadada  gui=NONE      ctermfg=249   ctermbg=253   cterm=NONE
     highlight! LineNr               guifg=#bcbcbc  guibg=#eeeeee  gui=NONE      ctermfg=250   ctermbg=255   cterm=NONE
 
     highlight! NonText              guifg=#bcbcbc  guibg=NONE     gui=NONE      ctermfg=250   ctermbg=NONE  cterm=NONE
@@ -360,7 +360,7 @@ if g:arcadia_Daybreak
     highlight! Folded               guifg=#767676  guibg=NONE     gui=NONE      ctermfg=243   ctermbg=NONE  cterm=NONE
 
     "FIXME: add/change to COMMON ARCADIA HIGHLIGHTING for consistancy
-    highlight! WildMenu             guifg=#eeeeee  guibg=#5f87af  gui=reverse    ctermfg=255  ctermbg=67    cterm=reverse
+    highlight! WildMenu             guifg=#eeeeee  guibg=#5f5f87  gui=reverse    ctermfg=255  ctermbg=60    cterm=reverse
     highlight! MoreMsg              guifg=#005f87  guibg=NONE     gui=NONE       ctermfg=24   ctermbg=NONE  cterm=NONE
     highlight! Question             guifg=#005f87  guibg=NONE     gui=NONE       ctermfg=24   ctermbg=NONE  cterm=NONE
 endif
