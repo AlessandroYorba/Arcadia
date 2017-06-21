@@ -23,24 +23,31 @@ The default UI for Arcadia is a dark grey UI. However, depending on certain ligh
 "Darker Grey:
 let g:arcadia_Sunset = 1
 colorscheme arcadia
-
+```
+```VimL
 "Darkest Grey:
 let g:arcadia_Twilight = 1
 colorscheme arcadia
+```
 
+```VimL
 "Amost Black:
 let g:arcadia_Midnight = 1
 colorscheme arcadia
+```
 
+```VimL
 "Black:
 let g:arcadia_Pitch = 1
 colorscheme arcadia
+```
 
+```VimL
 "Ivory Background:
 let g:arcadia_Daybreak = 1
 colorscheme arcadia
-
 ```
+
 :crescent_moon: Dev Build
 ----------------------------
 Development branch [here](https://github.com/AlessandroYorba/Arcadia/tree/nightly)
