@@ -1,11 +1,11 @@
-![Screenshot](https://user-images.githubusercontent.com/11221489/27309947-b5795302-550b-11e7-936e-aae0d92f86a2.png)
+![Screenshot](https://user-images.githubusercontent.com/11221489/27363744-2651160c-55eb-11e7-94e4-3f72887926e4.png)
 
 ```VimL
 colorscheme arcadia
 ```
 <br>
 
-![Screenshot](https://user-images.githubusercontent.com/11221489/27309976-dd9567c2-550b-11e7-9f68-670e047fd60a.png)
+![Screenshot](https://user-images.githubusercontent.com/11221489/27363749-2cdd803c-55eb-11e7-9297-27784b06a8e7.png)
 
 ```VimL
 "Ivory Background:
