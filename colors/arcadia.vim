@@ -149,7 +149,7 @@ highlight! MoreMsg                guifg=#dfaf00  guibg=NONE     gui=NONE       c
 
 highlight! Type                   guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
 highlight! ErrorMsg               guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
-highlight! Underlined             guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
+highlight! Underlined             guifg=#af005f  guibg=NONE     gui=underline  ctermfg=125    ctermbg=NONE  cterm=underline
 highlight! Error                  guifg=#af5f5f  guibg=#e4e4e4  gui=reverse    ctermfg=125    ctermbg=254   cterm=reverse
 
 highlight! htmlItalic             guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
