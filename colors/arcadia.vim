@@ -10,8 +10,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
 " UPDATED:      August 19, 2017
-" LATEST CHANGES: Type and PreProc is now less saturated, VimCommentTitle is now grey
-" normal foreground color for DayBreak is slightly lighter.
+" LATEST CHANGES: iTerm XTERM color #1 and #9 changed
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
@@ -81,7 +80,7 @@
 "   NORMAL        HEX          XTERM  |      BRIGHT        HEX          XTERM  |
 "-------------------------------------|-----------------------------------------
 "   Black         #303030      0      |      brBlack       #6c6c6c      8      |
-"   Red           #870f1c      1      |      brRed         #af1c5f      9      |
+"   Red           #af005f      1      |      brRed         #af5f87      9      |
 "   Green         #1c5f5f      2      |      brGreen       #008787      10     |
 "   Yellow        #af871c      3      |      brYellow      #dfaf00      11     |
 "   Blue          #1c5f87      4      |      brBlue        #5f87af      12     |
