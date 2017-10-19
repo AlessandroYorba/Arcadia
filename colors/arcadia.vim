@@ -9,7 +9,9 @@
 
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
-" UPDATED:      August 08, 2017
+" UPDATED:      August 19, 2017
+" LATEST CHANGES: Type and PreProc is now less saturated, VimCommentTitle is now grey
+" normal foreground color for DayBreak is slightly lighter.
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
@@ -162,12 +164,12 @@ highlight! WarningMsg          guifg=#dfaf00  guibg=NONE     gui=NONE       cter
 highlight! Question            guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 highlight! MoreMsg             guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 
-highlight! PreProc             guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
-highlight! Type                guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
 highlight! ErrorMsg            guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
 highlight! Underlined          guifg=#af005f  guibg=NONE     gui=underline  ctermfg=125    ctermbg=NONE  cterm=underline
 highlight! Error               guifg=#af005f  guibg=#e4e4e4  gui=reverse    ctermfg=125    ctermbg=254   cterm=reverse
 
+highlight! PreProc             guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
+highlight! Type                guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
 highlight! htmlItalic          guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
 highlight! Label               guifg=#005f87  guibg=NONE     gui=NONE       ctermfg=24     ctermbg=NONE  cterm=NONE
 highlight! MatchParen          guifg=#008787  guibg=NONE     gui=reverse    ctermfg=30     ctermbg=NONE  cterm=reverse
@@ -180,7 +182,7 @@ highlight! Search              guifg=NONE     guibg=NONE     gui=reverse    cter
 highlight! Special             guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
 highlight! CursorLineNr        guifg=#5f5f87  guibg=NONE     gui=reverse    ctermfg=60     ctermbg=NONE  cterm=reverse
 highlight! SpecialComment      guifg=#5f87af  guibg=NONE     gui=reverse    ctermfg=67     ctermbg=NONE  cterm=reverse
-highlight! VimCommentTitle     guifg=#5f87af  guibg=NONE     gui=reverse    ctermfg=67     ctermbg=NONE  cterm=reverse
+highlight! VimCommentTitle     guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249     ctermbg=NONE  cterm=reverse
 
 highlight! PmenuSel            guifg=#eeeeee  guibg=#5f5f87  gui=NONE       ctermfg=255    ctermbg=60    cterm=NONE
 highlight! Pmenu               guifg=#8787af  guibg=#5f5f87  gui=NONE       ctermfg=103    ctermbg=60    cterm=NONE
@@ -322,7 +324,7 @@ endif
 
 " DAYBREAK:
 if g:arcadia_Daybreak
-    highlight! Normal            guifg=#6c6c6c  guibg=#e4e4e4  gui=NONE      ctermfg=242   ctermbg=254   cterm=NONE
+    highlight! Normal            guifg=#767676  guibg=#e4e4e4  gui=NONE      ctermfg=243   ctermbg=254   cterm=NONE
     highlight! TabLineFill       guifg=#005f87  guibg=#dadada  gui=NONE      ctermfg=24    ctermbg=253   cterm=NONE
 
     highlight! CursorLine        guifg=NONE     guibg=#eeeeee  gui=NONE      ctermfg=NONE  ctermbg=255   cterm=NONE
