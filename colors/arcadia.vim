@@ -10,7 +10,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
 " UPDATED:      August 19, 2017
-" LATEST CHANGES: iTerm XTERM color #1 and #9 changed
+" LATEST CHANGES: PreProc ctermfg=125
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
@@ -167,7 +167,7 @@ highlight! ErrorMsg            guifg=#af005f  guibg=NONE     gui=NONE       cter
 highlight! Underlined          guifg=#af005f  guibg=NONE     gui=underline  ctermfg=125    ctermbg=NONE  cterm=underline
 highlight! Error               guifg=#af005f  guibg=#e4e4e4  gui=reverse    ctermfg=125    ctermbg=254   cterm=reverse
 
-highlight! PreProc             guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
+highlight! PreProc             guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
 highlight! Type                guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
 highlight! htmlItalic          guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
 highlight! Label               guifg=#005f87  guibg=NONE     gui=NONE       ctermfg=24     ctermbg=NONE  cterm=NONE
