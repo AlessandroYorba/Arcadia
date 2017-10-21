@@ -9,8 +9,8 @@
 
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
-" UPDATED:      August 19, 2017
-" LATEST CHANGES: PreProc ctermfg=125
+" UPDATED:      October 21, 2017
+" LATEST CHANGES: Revised terminal colors
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
@@ -60,6 +60,8 @@
 
 
 " MATCHING TERMINAL:
+" Other themes for arcadia: https://github.com/AlessandroYorba/Arcadia/terminal_colors
+"
 "-------------------------------------|-----------------------------------------
 "   BASIC         HEX                 |     BASIC         HEX                  |
 "-------------------------------------|-----------------------------------------
@@ -89,7 +91,7 @@
 "   White         #afafaf      7      |      brWhite       #e4e4e4      15     |
 "-------------------------------------|-----------------------------------------
 
-
+" ARCADIA:
 set background=dark
 
 highlight clear
