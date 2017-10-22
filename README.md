@@ -2,8 +2,6 @@ Arcadia
 -------
 ![Screenshot](https://user-images.githubusercontent.com/11221489/31859466-4fe87e6a-b6c1-11e7-9201-74bcbd1a351b.png)
 
-Daybreak Mode
-----------
 ![Screenshot](https://user-images.githubusercontent.com/11221489/31859486-9d5f2f72-b6c1-11e7-8772-5eb82fc51f56.png)
 
 
