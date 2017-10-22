@@ -1,17 +1,10 @@
+### Arcadia 
 ![Screenshot](https://user-images.githubusercontent.com/11221489/31859466-4fe87e6a-b6c1-11e7-9201-74bcbd1a351b.png)
 
-```VimL
-"Dark Grey:
-colorscheme arcadia
-```
-
+<br>
+### Daybreak Mode
 ![Screenshot](https://user-images.githubusercontent.com/11221489/31859486-9d5f2f72-b6c1-11e7-8772-5eb82fc51f56.png)
 
-```VimL
-"Ivory Background:
-let g:arcadia_Daybreak = 1
-colorscheme arcadia
-```
 
 :space_invader: Set Up
 ------
@@ -42,6 +35,11 @@ let g:arcadia_Pitch = 1
 colorscheme arcadia
 ```
 
+```VimL
+"Ivory Background:
+let g:arcadia_Daybreak = 1
+colorscheme arcadia
+```
 
 :crescent_moon: Dev Build
 ----------------------------
