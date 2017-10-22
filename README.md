@@ -1,12 +1,11 @@
 ![Screenshot](https://user-images.githubusercontent.com/11221489/31859466-4fe87e6a-b6c1-11e7-9201-74bcbd1a351b.png)
-![Screenshot](https://user-images.githubusercontent.com/11221489/31859486-9d5f2f72-b6c1-11e7-8772-5eb82fc51f56.png)
 
 ```VimL
+"Dark Grey:
 colorscheme arcadia
 ```
-<br>
 
-![Screenshot](https://user-images.githubusercontent.com/11221489/27363749-2cdd803c-55eb-11e7-9297-27784b06a8e7.png)
+![Screenshot](https://user-images.githubusercontent.com/11221489/31859486-9d5f2f72-b6c1-11e7-8772-5eb82fc51f56.png)
 
 ```VimL
 "Ivory Background:
@@ -43,11 +42,6 @@ let g:arcadia_Pitch = 1
 colorscheme arcadia
 ```
 
-```VimL
-"Ivory Background:
-let g:arcadia_Daybreak = 1
-colorscheme arcadia
-```
 
 :crescent_moon: Dev Build
 ----------------------------
