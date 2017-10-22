@@ -1,4 +1,5 @@
-![Screenshot](https://user-images.githubusercontent.com/11221489/27363744-2651160c-55eb-11e7-94e4-3f72887926e4.png)
+![Screenshot](https://user-images.githubusercontent.com/11221489/31858482-89ea2b90-b6ad-11e7-925b-eebee86f837d.png)
+![Screenshot](https://user-images.githubusercontent.com/11221489/31858486-94ee96de-b6ad-11e7-9650-ce2bcafafd53.png)
 
 ```VimL
 colorscheme arcadia
