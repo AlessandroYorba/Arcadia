@@ -2,6 +2,8 @@ Arcadia
 -------
 ![Screenshot](https://user-images.githubusercontent.com/11221489/31865959-79dcf9ba-b72c-11e7-84b5-9e094f236ef4.png)
 
+![Screenshot](https://user-images.githubusercontent.com/11221489/31866076-59d47b5a-b72e-11e7-9fd8-0899291a1964.png)
+
 ![Screenshot](https://user-images.githubusercontent.com/11221489/31865993-fc35bf50-b72c-11e7-868a-58c3532fb20a.png)
 
 
