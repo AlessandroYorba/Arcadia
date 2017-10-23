@@ -9,8 +9,8 @@
 
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
-" UPDATED:      October 21, 2017
-" LATEST CHANGES: SpecialComment HL, Error HL, ErrorMsg
+" UPDATED:      October 23, 2017
+" LATEST CHANGES: Error HL and  ErrorMsg changed to term 167 hex #d75f5f
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
@@ -165,9 +165,10 @@ highlight! WarningMsg          guifg=#dfaf00  guibg=NONE     gui=NONE       cter
 highlight! Question            guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 highlight! MoreMsg             guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 
-highlight! ErrorMsg            guifg=#87005f  guibg=NONE     gui=NONE       ctermfg=89    ctermbg=NONE  cterm=NONE
 highlight! Underlined          guifg=#af005f  guibg=NONE     gui=underline  ctermfg=125    ctermbg=NONE  cterm=underline
-highlight! Error               guifg=#87005f  guibg=#e4e4e4  gui=reverse    ctermfg=89    ctermbg=254   cterm=reverse
+
+highlight! Error               guifg=#d75f5f  guibg=#e4e4e4  gui=reverse    ctermfg=167    ctermbg=254   cterm=reverse
+highlight! ErrorMsg            guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167    ctermbg=NONE  cterm=NONE
 
 highlight! PreProc             guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
 highlight! Type                guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
@@ -372,4 +373,3 @@ endif
 " LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 " OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 " THE SOFTWARE.
-
