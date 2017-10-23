@@ -10,7 +10,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
 " UPDATED:      October 21, 2017
-" LATEST CHANGES: Revised terminal colors
+" LATEST CHANGES: SpecialComment HL, Error HL, ErrorMsg
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
@@ -165,9 +165,9 @@ highlight! WarningMsg          guifg=#dfaf00  guibg=NONE     gui=NONE       cter
 highlight! Question            guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 highlight! MoreMsg             guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 
-highlight! ErrorMsg            guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
+highlight! ErrorMsg            guifg=#87005f  guibg=NONE     gui=NONE       ctermfg=89    ctermbg=NONE  cterm=NONE
 highlight! Underlined          guifg=#af005f  guibg=NONE     gui=underline  ctermfg=125    ctermbg=NONE  cterm=underline
-highlight! Error               guifg=#af005f  guibg=#e4e4e4  gui=reverse    ctermfg=125    ctermbg=254   cterm=reverse
+highlight! Error               guifg=#87005f  guibg=#e4e4e4  gui=reverse    ctermfg=89    ctermbg=254   cterm=reverse
 
 highlight! PreProc             guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
 highlight! Type                guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
@@ -182,7 +182,7 @@ highlight! TabLineSel          guifg=#eeeeee  guibg=#5f5f87  gui=NONE       cter
 highlight! Search              guifg=NONE     guibg=NONE     gui=reverse    ctermfg=NONE   ctermbg=NONE  cterm=reverse
 highlight! Special             guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
 highlight! CursorLineNr        guifg=#5f5f87  guibg=NONE     gui=reverse    ctermfg=60     ctermbg=NONE  cterm=reverse
-highlight! SpecialComment      guifg=#5f87af  guibg=NONE     gui=reverse    ctermfg=67     ctermbg=NONE  cterm=reverse
+highlight! SpecialComment      guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249     ctermbg=NONE  cterm=reverse
 highlight! VimCommentTitle     guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249     ctermbg=NONE  cterm=reverse
 
 highlight! PmenuSel            guifg=#eeeeee  guibg=#5f5f87  gui=NONE       ctermfg=255    ctermbg=60    cterm=NONE
@@ -372,3 +372,4 @@ endif
 " LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 " OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 " THE SOFTWARE.
+
