@@ -9,8 +9,8 @@
 
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
-" UPDATED:      October 23, 2017
-" LATEST CHANGES: Error HL and  ErrorMsg changed to term 167 hex #d75f5f
+" UPDATED:      October 30, 2017
+" LATEST CHANGES: Label HL, PreProc, Boolean
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
@@ -150,6 +150,7 @@ highlight! Directory           guifg=#5f87af  guibg=NONE     gui=NONE       cter
 
 highlight! Operator            guifg=#5f5faf  guibg=NONE     gui=NONE       ctermfg=61     ctermbg=NONE  cterm=NONE
 highlight! Constant            guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
+highlight! Label               guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
 
 highlight! String              guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30     ctermbg=NONE  cterm=NONE
 highlight! netrwExe            guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30     ctermbg=NONE  cterm=NONE
@@ -165,15 +166,16 @@ highlight! WarningMsg          guifg=#dfaf00  guibg=NONE     gui=NONE       cter
 highlight! Question            guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 highlight! MoreMsg             guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 
+highlight! Boolean             guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
 highlight! Underlined          guifg=#af005f  guibg=NONE     gui=underline  ctermfg=125    ctermbg=NONE  cterm=underline
 
 highlight! Error               guifg=#d75f5f  guibg=#e4e4e4  gui=reverse    ctermfg=167    ctermbg=254   cterm=reverse
 highlight! ErrorMsg            guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167    ctermbg=NONE  cterm=NONE
 
-highlight! PreProc             guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
-highlight! Type                guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
+highlight! PreProc             guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
+highlight! Type                guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
+highlight! Number              guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
 highlight! htmlItalic          guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
-highlight! Label               guifg=#005f87  guibg=NONE     gui=NONE       ctermfg=24     ctermbg=NONE  cterm=NONE
 highlight! MatchParen          guifg=#008787  guibg=NONE     gui=reverse    ctermfg=30     ctermbg=NONE  cterm=reverse
 highlight! SignColumn          guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108    ctermbg=NONE  cterm=NONE
 highlight! Todo                guifg=#8787d7  guibg=#1c1c1c  gui=reverse    ctermfg=104    ctermbg=234   cterm=reverse
