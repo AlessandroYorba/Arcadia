@@ -10,7 +10,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
 " UPDATED:      Nov 1st, 2017
-" LATEST CHANGES: VertSplit foreground removed on all modes
+" LATEST CHANGES: Statements, TabLineSel, Identifier
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
@@ -30,7 +30,7 @@
 " To enable Arcadia as your default colorscheme add the following  to your .vimrc:
 "   colorscheme arcadia
 
-" The default UI for Arcadia is a dark grey UI. However, depending on certain lighting conditions, 
+" The default UI for Arcadia is a dark grey UI. However, depending on certain lighting conditions,
 " time of day or personal preference, you might want to try some of the darker or lighter versions.
 " To enable, add one of the following settings to your .vimrc
 
@@ -141,22 +141,21 @@ endif
 " COMMON ARCADIA HIGHLIGHTING:
 highlight! Title               guifg=#8787d7  guibg=NONE     gui=NONE       ctermfg=104    ctermbg=NONE  cterm=NONE
 
-highlight! Identifier          guifg=#8787af  guibg=NONE     gui=NONE       ctermfg=103    ctermbg=NONE  cterm=NONE
+highlight! PreProc             guifg=#8787af  guibg=NONE     gui=NONE       ctermfg=103    ctermbg=NONE  cterm=NONE
 highlight! FoldColumn          guifg=#8787af  guibg=NONE     gui=NONE       ctermfg=103    ctermbg=NONE  cterm=NONE
 
-highlight! Statement           guifg=#5f87af  guibg=NONE     gui=NONE       ctermfg=67     ctermbg=NONE  cterm=NONE
 highlight! ModeMsg             guifg=#5f87af  guibg=NONE     gui=NONE       ctermfg=67     ctermbg=NONE  cterm=NONE
 highlight! Directory           guifg=#5f87af  guibg=NONE     gui=NONE       ctermfg=67     ctermbg=NONE  cterm=NONE
 
-highlight! Operator            guifg=#5f5faf  guibg=NONE     gui=NONE       ctermfg=61     ctermbg=NONE  cterm=NONE
 highlight! Constant            guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
-highlight! Label               guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
+highlight! Statement           guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
 
 highlight! String              guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30     ctermbg=NONE  cterm=NONE
 highlight! netrwExe            guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30     ctermbg=NONE  cterm=NONE
 highlight! Visual              guifg=#008787  guibg=NONE     gui=reverse    ctermfg=30     ctermbg=NONE  cterm=reverse
 
 highlight! Function            guifg=#875f87  guibg=NONE     gui=NONE       ctermfg=96     ctermbg=NONE  cterm=NONE
+highlight! Identifier          guifg=#875f87  guibg=NONE     gui=NONE       ctermfg=96     ctermbg=NONE  cterm=NONE
 highlight! htmlArg             guifg=#875f87  guibg=NONE     gui=NONE       ctermfg=96     ctermbg=NONE  cterm=NONE
 highlight! netrwList           guifg=#875f87  guibg=NONE     gui=NONE       ctermfg=96     ctermbg=NONE  cterm=NONE
 
@@ -166,25 +165,24 @@ highlight! WarningMsg          guifg=#dfaf00  guibg=NONE     gui=NONE       cter
 highlight! Question            guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 highlight! MoreMsg             guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 
-highlight! Boolean             guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
-highlight! StorageClass        guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
 highlight! Underlined          guifg=#af005f  guibg=NONE     gui=underline  ctermfg=125    ctermbg=NONE  cterm=underline
 
 highlight! Error               guifg=#d75f5f  guibg=#e4e4e4  gui=reverse    ctermfg=167    ctermbg=254   cterm=reverse
 highlight! ErrorMsg            guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167    ctermbg=NONE  cterm=NONE
 
-highlight! PreProc             guifg=#af005f  guibg=NONE     gui=NONE       ctermfg=125    ctermbg=NONE  cterm=NONE
 highlight! Type                guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
-highlight! Number              guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
+highlight! StorageClass        guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
 highlight! htmlItalic          guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
 highlight! MatchParen          guifg=#008787  guibg=NONE     gui=reverse    ctermfg=30     ctermbg=NONE  cterm=reverse
 highlight! SignColumn          guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108    ctermbg=NONE  cterm=NONE
 highlight! Todo                guifg=#8787d7  guibg=#1c1c1c  gui=reverse    ctermfg=104    ctermbg=234   cterm=reverse
 
 highlight! htmlSpecialTagName  guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
-highlight! TabLineSel          guifg=#eeeeee  guibg=#5f5f87  gui=NONE       ctermfg=255    ctermbg=60    cterm=NONE
+highlight! TabLineSel          guifg=#262626  guibg=#5f5f87  gui=NONE       ctermfg=235    ctermbg=60    cterm=NONE
 highlight! Search              guifg=NONE     guibg=NONE     gui=reverse    ctermfg=NONE   ctermbg=NONE  cterm=reverse
 highlight! Special             guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
+highlight! Label               guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
+highlight! Operator            guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
 highlight! CursorLineNr        guifg=#5f5f87  guibg=NONE     gui=reverse    ctermfg=60     ctermbg=NONE  cterm=reverse
 highlight! SpecialComment      guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249     ctermbg=NONE  cterm=reverse
 highlight! VimCommentTitle     guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249     ctermbg=NONE  cterm=reverse
@@ -219,7 +217,7 @@ if 1
     highlight! StatusLine        guifg=#eeeeee  guibg=#262626  gui=NONE     ctermfg=255   ctermbg=235   cterm=NONE
 
     highlight! StatusLineNC      guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
-    highlight! VertSplit         guifg=#262626  guibg=#262626  gui=NONE     ctermfg=235   ctermbg=235   cterm=NONE
+    highlight! VertSplit         guifg=#262626  guibg=#303030  gui=NONE     ctermfg=235   ctermbg=236   cterm=NONE
     highlight! TabLine           guifg=#5f5f87  guibg=#262626  gui=NONE     ctermfg=60    ctermbg=235   cterm=NONE
     highlight! LineNr            guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
 
@@ -244,7 +242,7 @@ if g:arcadia_Sunset
     highlight! StatusLine        guifg=#eeeeee  guibg=#1c1c1c  gui=NONE     ctermfg=255   ctermbg=234   cterm=NONE
 
     highlight! StatusLineNC      guifg=#6c6c6c  guibg=#1c1c1c  gui=NONE     ctermfg=242   ctermbg=234   cterm=NONE
-    highlight! VertSplit         guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE     ctermfg=234   ctermbg=234   cterm=NONE
+    highlight! VertSplit         guifg=#1c1c1c  guibg=#262626  gui=NONE     ctermfg=234   ctermbg=235   cterm=NONE
     highlight! TabLine           guifg=#5f5f87  guibg=#1c1c1c  gui=NONE     ctermfg=60    ctermbg=234   cterm=NONE
     highlight! LineNr            guifg=#6c6c6c  guibg=#1c1c1c  gui=NONE     ctermfg=242   ctermbg=234   cterm=NONE
 
@@ -267,8 +265,8 @@ if g:arcadia_Twilight
     highlight! StatusLine        guifg=#eeeeee  guibg=#121212  gui=NONE     ctermfg=255   ctermbg=233   cterm=NONE
 
     highlight! StatusLineNC      guifg=#626262  guibg=#121212  gui=NONE     ctermfg=241   ctermbg=233   cterm=NONE
-    highlight! VertSplit         guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233   cterm=NONE
-    highlight! TabLine           guifg=#5f5f87  guibg=#121212  gui=NONE     ctermfg=60   ctermbg=233   cterm=NONE
+    highlight! VertSplit         guifg=#121212  guibg=#1c1c1c  gui=NONE     ctermfg=233   ctermbg=234   cterm=NONE
+    highlight! TabLine           guifg=#5f5f87  guibg=#121212  gui=NONE     ctermfg=60    ctermbg=233   cterm=NONE
     highlight! LineNr            guifg=#626262  guibg=#121212  gui=NONE     ctermfg=241   ctermbg=233   cterm=NONE
 
     highlight! NonText           guifg=#303030  guibg=NONE     gui=NONE     ctermfg=236   ctermbg=NONE  cterm=NONE
@@ -288,12 +286,12 @@ if g:arcadia_Midnight
     highlight! CursorColumn      guifg=NONE     guibg=#080808  gui=NONE     ctermfg=NONE  ctermbg=232   cterm=NONE
     highlight! ColorColumn       guifg=NONE     guibg=#080808  gui=NONE     ctermfg=NONE  ctermbg=232   cterm=NONE
 
-    highlight! StatusLine        guifg=#eeeeee  guibg=#1c1c1c  gui=none     ctermfg=255   ctermbg=234   cterm=none
+    highlight! StatusLine        guifg=#eeeeee  guibg=#1c1c1c  gui=NONE     ctermfg=255   ctermbg=234   cterm=NONE
 
-    highlight! StatusLineNC      guifg=#585858  guibg=#1c1c1c  gui=none     ctermfg=240   ctermbg=234   cterm=none
-    highlight! VertSplit         guifg=#1c1c1c  guibg=#1c1c1c  gui=none     ctermfg=234   ctermbg=234   cterm=none
-    highlight! TabLine           guifg=#5f5f87  guibg=#1c1c1c  gui=none     ctermfg=60    ctermbg=234   cterm=none
-    highlight! LineNr            guifg=#585858  guibg=#1c1c1c  gui=none     ctermfg=240   ctermbg=234   cterm=none
+    highlight! StatusLineNC      guifg=#585858  guibg=#1c1c1c  gui=NONE     ctermfg=240   ctermbg=234   cterm=NONE
+    highlight! VertSplit         guifg=#1c1c1c  guibg=#121212  gui=NONE     ctermfg=234   ctermbg=233   cterm=NONE
+    highlight! TabLine           guifg=#5f5f87  guibg=#1c1c1c  gui=NONE     ctermfg=60    ctermbg=234   cterm=NONE
+    highlight! LineNr            guifg=#585858  guibg=#1c1c1c  gui=NONE     ctermfg=240   ctermbg=234   cterm=NONE
 
     highlight! NonText           guifg=#262626  guibg=NONE     gui=NONE     ctermfg=235   ctermbg=NONE  cterm=NONE
     highlight! SpecialKey        guifg=#262626  guibg=NONE     gui=NONE     ctermfg=235   ctermbg=NONE  cterm=NONE
@@ -315,7 +313,7 @@ if g:arcadia_Pitch
     highlight! StatusLine        guifg=#eeeeee  guibg=#121212  gui=NONE     ctermfg=255   ctermbg=233   cterm=NONE
 
     highlight! StatusLineNC      guifg=#4e4e4e  guibg=#121212  gui=NONE     ctermfg=239   ctermbg=233   cterm=NONE
-    highlight! VertSplit         guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233   cterm=NONE
+    highlight! VertSplit         guifg=#121212  guibg=#080808  gui=NONE     ctermfg=233   ctermbg=232   cterm=NONE
     highlight! TabLine           guifg=#5f5f87  guibg=#121212  gui=NONE     ctermfg=60   ctermbg=233   cterm=NONE
     highlight! LineNr            guifg=#4e4e4e  guibg=#121212  gui=NONE     ctermfg=239   ctermbg=233   cterm=NONE
 
@@ -329,7 +327,7 @@ endif
 
 " DAYBREAK:
 if g:arcadia_Daybreak
-    highlight! Normal            guifg=#767676  guibg=#e4e4e4  gui=NONE      ctermfg=243   ctermbg=254   cterm=NONE
+    highlight! Normal            guifg=#808080  guibg=#e4e4e4  gui=NONE      ctermfg=244   ctermbg=254   cterm=NONE
     highlight! TabLineFill       guifg=#005f87  guibg=#dadada  gui=NONE      ctermfg=24    ctermbg=253   cterm=NONE
 
     highlight! CursorLine        guifg=NONE     guibg=#eeeeee  gui=NONE      ctermfg=NONE  ctermbg=255   cterm=NONE
@@ -339,7 +337,7 @@ if g:arcadia_Daybreak
     highlight! StatusLine        guifg=#eeeeee  guibg=#5f5f87  gui=NONE      ctermfg=255   ctermbg=60    cterm=NONE
 
     highlight! StatusLineNC      guifg=#5f87af  guibg=#dadada  gui=NONE      ctermfg=67    ctermbg=253   cterm=NONE
-    highlight! VertSplit         guifg=#dadada  guibg=#dadada  gui=NONE      ctermfg=253   ctermbg=253   cterm=NONE
+    highlight! VertSplit         guifg=#dadada  guibg=#e4e4e4  gui=NONE      ctermfg=253   ctermbg=254   cterm=NONE
     highlight! TabLine           guifg=#5f5f87  guibg=#dadada  gui=NONE      ctermfg=60    ctermbg=253   cterm=NONE
     highlight! LineNr            guifg=#bcbcbc  guibg=#eeeeee  gui=NONE      ctermfg=250   ctermbg=255   cterm=NONE
 
