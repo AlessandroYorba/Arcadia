@@ -9,8 +9,8 @@
 
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
-" UPDATED:      October 30, 2017
-" LATEST CHANGES: Label HL, PreProc, Type
+" UPDATED:      Nov 1st, 2017
+" LATEST CHANGES: VertSplit foreground removed on all modes
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
@@ -219,7 +219,7 @@ if 1
     highlight! StatusLine        guifg=#eeeeee  guibg=#262626  gui=NONE     ctermfg=255   ctermbg=235   cterm=NONE
 
     highlight! StatusLineNC      guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
-    highlight! VertSplit         guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
+    highlight! VertSplit         guifg=#262626  guibg=#262626  gui=NONE     ctermfg=235   ctermbg=235   cterm=NONE
     highlight! TabLine           guifg=#5f5f87  guibg=#262626  gui=NONE     ctermfg=60    ctermbg=235   cterm=NONE
     highlight! LineNr            guifg=#767676  guibg=#262626  gui=NONE     ctermfg=243   ctermbg=235   cterm=NONE
 
@@ -244,7 +244,7 @@ if g:arcadia_Sunset
     highlight! StatusLine        guifg=#eeeeee  guibg=#1c1c1c  gui=NONE     ctermfg=255   ctermbg=234   cterm=NONE
 
     highlight! StatusLineNC      guifg=#6c6c6c  guibg=#1c1c1c  gui=NONE     ctermfg=242   ctermbg=234   cterm=NONE
-    highlight! VertSplit         guifg=#6c6c6c  guibg=#1c1c1c  gui=NONE     ctermfg=242   ctermbg=234   cterm=NONE
+    highlight! VertSplit         guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE     ctermfg=234   ctermbg=234   cterm=NONE
     highlight! TabLine           guifg=#5f5f87  guibg=#1c1c1c  gui=NONE     ctermfg=60    ctermbg=234   cterm=NONE
     highlight! LineNr            guifg=#6c6c6c  guibg=#1c1c1c  gui=NONE     ctermfg=242   ctermbg=234   cterm=NONE
 
@@ -267,7 +267,7 @@ if g:arcadia_Twilight
     highlight! StatusLine        guifg=#eeeeee  guibg=#121212  gui=NONE     ctermfg=255   ctermbg=233   cterm=NONE
 
     highlight! StatusLineNC      guifg=#626262  guibg=#121212  gui=NONE     ctermfg=241   ctermbg=233   cterm=NONE
-    highlight! VertSplit         guifg=#626262  guibg=#121212  gui=NONE     ctermfg=241   ctermbg=233   cterm=NONE
+    highlight! VertSplit         guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233   cterm=NONE
     highlight! TabLine           guifg=#5f5f87  guibg=#121212  gui=NONE     ctermfg=60   ctermbg=233   cterm=NONE
     highlight! LineNr            guifg=#626262  guibg=#121212  gui=NONE     ctermfg=241   ctermbg=233   cterm=NONE
 
@@ -291,7 +291,7 @@ if g:arcadia_Midnight
     highlight! StatusLine        guifg=#eeeeee  guibg=#1c1c1c  gui=none     ctermfg=255   ctermbg=234   cterm=none
 
     highlight! StatusLineNC      guifg=#585858  guibg=#1c1c1c  gui=none     ctermfg=240   ctermbg=234   cterm=none
-    highlight! VertSplit         guifg=#585858  guibg=#1c1c1c  gui=none     ctermfg=240   ctermbg=234   cterm=none
+    highlight! VertSplit         guifg=#1c1c1c  guibg=#1c1c1c  gui=none     ctermfg=234   ctermbg=234   cterm=none
     highlight! TabLine           guifg=#5f5f87  guibg=#1c1c1c  gui=none     ctermfg=60    ctermbg=234   cterm=none
     highlight! LineNr            guifg=#585858  guibg=#1c1c1c  gui=none     ctermfg=240   ctermbg=234   cterm=none
 
@@ -315,7 +315,7 @@ if g:arcadia_Pitch
     highlight! StatusLine        guifg=#eeeeee  guibg=#121212  gui=NONE     ctermfg=255   ctermbg=233   cterm=NONE
 
     highlight! StatusLineNC      guifg=#4e4e4e  guibg=#121212  gui=NONE     ctermfg=239   ctermbg=233   cterm=NONE
-    highlight! VertSplit         guifg=#4e4e4e  guibg=#121212  gui=NONE     ctermfg=239   ctermbg=233   cterm=NONE
+    highlight! VertSplit         guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233   cterm=NONE
     highlight! TabLine           guifg=#5f5f87  guibg=#121212  gui=NONE     ctermfg=60   ctermbg=233   cterm=NONE
     highlight! LineNr            guifg=#4e4e4e  guibg=#121212  gui=NONE     ctermfg=239   ctermbg=233   cterm=NONE
 
@@ -339,7 +339,7 @@ if g:arcadia_Daybreak
     highlight! StatusLine        guifg=#eeeeee  guibg=#5f5f87  gui=NONE      ctermfg=255   ctermbg=60    cterm=NONE
 
     highlight! StatusLineNC      guifg=#5f87af  guibg=#dadada  gui=NONE      ctermfg=67    ctermbg=253   cterm=NONE
-    highlight! VertSplit         guifg=#bcbcbc  guibg=#dadada  gui=NONE      ctermfg=250   ctermbg=253   cterm=NONE
+    highlight! VertSplit         guifg=#dadada  guibg=#dadada  gui=NONE      ctermfg=253   ctermbg=253   cterm=NONE
     highlight! TabLine           guifg=#5f5f87  guibg=#dadada  gui=NONE      ctermfg=60    ctermbg=253   cterm=NONE
     highlight! LineNr            guifg=#bcbcbc  guibg=#eeeeee  gui=NONE      ctermfg=250   ctermbg=255   cterm=NONE
 
