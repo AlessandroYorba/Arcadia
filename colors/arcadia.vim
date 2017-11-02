@@ -10,7 +10,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
 " UPDATED:      Nov 1st, 2017
-" LATEST CHANGES: Statements, TabLineSel, Identifier
+" LATEST CHANGES: Todo HL
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
@@ -27,7 +27,7 @@
 
 
 " SETUP AND CUSTOMIZATION:
-" To enable Arcadia as your default colorscheme add the following  to your .vimrc:
+" To enable Arcadia as your default colorscheme add the following to your .vimrc:
 "   colorscheme arcadia
 
 " The default UI for Arcadia is a dark grey UI. However, depending on certain lighting conditions,
@@ -149,6 +149,7 @@ highlight! Directory           guifg=#5f87af  guibg=NONE     gui=NONE       cter
 
 highlight! Constant            guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
 highlight! Statement           guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
+highlight! Todo                guifg=#0087af  guibg=#1c1c1c  gui=reverse    ctermfg=31    ctermbg=234   cterm=reverse
 
 highlight! String              guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30     ctermbg=NONE  cterm=NONE
 highlight! netrwExe            guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30     ctermbg=NONE  cterm=NONE
@@ -175,7 +176,6 @@ highlight! StorageClass        guifg=#af5f87  guibg=NONE     gui=NONE       cter
 highlight! htmlItalic          guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
 highlight! MatchParen          guifg=#008787  guibg=NONE     gui=reverse    ctermfg=30     ctermbg=NONE  cterm=reverse
 highlight! SignColumn          guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108    ctermbg=NONE  cterm=NONE
-highlight! Todo                guifg=#8787d7  guibg=#1c1c1c  gui=reverse    ctermfg=104    ctermbg=234   cterm=reverse
 
 highlight! htmlSpecialTagName  guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
 highlight! TabLineSel          guifg=#262626  guibg=#5f5f87  gui=NONE       ctermfg=235    ctermbg=60    cterm=NONE
@@ -353,8 +353,8 @@ if g:arcadia_Daybreak
     highlight! Question          guifg=#005f87  guibg=NONE     gui=NONE       ctermfg=24   ctermbg=NONE  cterm=NONE
 endif
 
-" LICENSE:
 
+" LICENSE:
 " Copyright (c) 2017 Alessandro Yorba
 "
 " Permission is hereby granted, free of charge, to any person obtaining a copy
