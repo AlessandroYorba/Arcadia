@@ -10,7 +10,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
 " UPDATED:      Nov 1st, 2017
-" LATEST CHANGES: Revised Daybreak
+" LATEST CHANGES: Removed Campfire
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
@@ -52,10 +52,6 @@
 
 "   "Ivory Background
 "   let g:arcadia_Daybreak = 1
-"   colorscheme arcadia
-
-"   "Automatically cycles thru modes depending on time of night
-"   let g:arcadia_Campfire = 1
 "   colorscheme arcadia
 
 
@@ -101,10 +97,6 @@ endif
 
 let g:colors_name="arcadia"
 
-if !exists("g:arcadia_Campfire")
-    let g:arcadia_Campfire = 0
-endif
-
 if !exists("g:arcadia_Sunset")
     let g:arcadia_Sunset = 0
 endif
@@ -125,18 +117,6 @@ if !exists("g:arcadia_Daybreak")
     let g:arcadia_Daybreak = 0
 endif
 
-
-" CAMPFIRE:
-if g:arcadia_Campfire
-    let arcadia_Hour = strftime("%H")
-    "7am - 5pm: Activate Daybreak HL
-    if 7 <= arcadia_Hour && arcadia_Hour < 17
-        let g:arcadia_Daybreak = 1
-    "5pm - 7am: Activate Day HL
-    else
-        let g:arcadia_Daybreak = 0
-    endif
-endif
 
 " COMMON ARCADIA HIGHLIGHTING:
 highlight Title               guifg=#8787d7  guibg=NONE     gui=NONE       ctermfg=104    ctermbg=NONE  cterm=NONE
@@ -185,6 +165,10 @@ highlight SignColumn          guifg=#87af87  guibg=NONE     gui=NONE       cterm
 highlight Special             guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
 highlight Label               guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
 highlight Operator            guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
+
+"highlight Special             guifg=#afafd7  guibg=NONE     gui=NONE       ctermfg=146     ctermbg=NONE  cterm=NONE
+"highlight Label               guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
+"highlight Operator            guifg=#5f5faf  guibg=NONE     gui=NONE       ctermfg=61     ctermbg=NONE  cterm=NONE
 highlight CursorLineNr        guifg=#5f5f87  guibg=NONE     gui=reverse    ctermfg=60     ctermbg=NONE  cterm=reverse
 
 highlight Cursor              guifg=#000000  guibg=#ffffff  gui=NONE       ctermfg=16     ctermbg=231   cterm=NONE
