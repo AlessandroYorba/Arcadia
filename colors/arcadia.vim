@@ -128,7 +128,6 @@ highlight Directory           guifg=#5f87af  guibg=NONE     gui=NONE       cterm
 highlight Constant            guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
 highlight Statement           guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
 highlight htmlStatement       guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
-highlight ModeMsg             guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
 highlight Todo                guifg=#0087af  guibg=NONE     gui=reverse    ctermfg=31     ctermbg=NONE  cterm=reverse
 highlight Search              guifg=#0087af  guibg=NONE     gui=reverse    ctermfg=31     ctermbg=NONE  cterm=reverse
 
@@ -157,23 +156,22 @@ highlight htmlSpecialTagName  guifg=#af5f87  guibg=NONE     gui=NONE       cterm
 highlight htmlItalic          guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
 
 highlight MatchParen          guifg=#008787  guibg=NONE     gui=reverse    ctermfg=30     ctermbg=NONE  cterm=reverse
-highlight WildMenu               guifg=#c6c6c6  guibg=NONE     gui=reverse    ctermfg=251  ctermbg=NONE  cterm=reverse
 highlight Visual              guifg=#008787  guibg=NONE     gui=reverse    ctermfg=30     ctermbg=NONE  cterm=reverse
 
 highlight SignColumn          guifg=#87af87  guibg=NONE     gui=NONE       ctermfg=108    ctermbg=NONE  cterm=NONE
 
 highlight Special             guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
 highlight Label               guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
-highlight Operator            guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
 
-"highlight Special             guifg=#afafd7  guibg=NONE     gui=NONE       ctermfg=146     ctermbg=NONE  cterm=NONE
-"highlight Label               guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
-highlight Operator               guifg=#b2b2b2  guibg=NONE     gui=NONE       ctermfg=249    ctermbg=NONE  cterm=NONE
-highlight CursorLineNr           guifg=#c6c6c6  guibg=NONE     gui=reverse    ctermfg=251   ctermbg=NONE  cterm=reverse
-highlight Cursor                 guifg=#000000  guibg=#ffffff  gui=NONE       ctermfg=16    ctermbg=231   cterm=NONE
+highlight Operator            guifg=#b2b2b2  guibg=NONE     gui=NONE       ctermfg=249    ctermbg=NONE  cterm=NONE
 
 highlight SpecialComment      guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249    ctermbg=NONE  cterm=reverse
 highlight VimCommentTitle     guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249    ctermbg=NONE  cterm=reverse
+
+highlight ModeMsg             guifg=#dfdfdf  guibg=NONE     gui=NONE       ctermfg=188    ctermbg=NONE  cterm=NONE
+highlight Cursor              guifg=#000000  guibg=#ffffff  gui=NONE       ctermfg=16     ctermbg=231   cterm=NONE
+highlight WildMenu            guifg=#c6c6c6  guibg=NONE     gui=reverse    ctermfg=251    ctermbg=NONE  cterm=reverse
+highlight CursorLineNr        guifg=#c6c6c6  guibg=NONE     gui=reverse    ctermfg=251    ctermbg=NONE  cterm=reverse
 
 "FIXME:
 highlight DiffText            guifg=#8787af  guibg=NONE     gui=reverse    ctermfg=103    ctermbg=NONE  cterm=reverse
