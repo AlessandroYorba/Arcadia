@@ -9,8 +9,8 @@
 
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
-" UPDATED:      Nov 22st, 2017
-" LATEST CHANGES: LineNr, Operator
+" UPDATED:      Nov 24GGst, 2017
+" LATEST CHANGES: Updates to Daybreak: Pmenu, Comments, Wildmenu, CursorLineNR
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
@@ -346,7 +346,7 @@ if g:arcadia_Daybreak
 
     highlight StatusLine        guifg=#6c6c6c  guibg=#eeeeee  gui=NONE      ctermfg=242   ctermbg=255   cterm=NONE
     highlight TabLineSel        guifg=#6c6c6c  guibg=#e4e4e4  gui=NONE      ctermfg=242   ctermbg=254   cterm=NONE
-    highlight PmenuSel          guifg=#008787  guibg=NONE     gui=reverse   ctermfg=30    ctermbg=NONE  cterm=reverse
+    highlight PmenuSel          guifg=#ffffff  guibg=#8a8a8a  gui=reverse   ctermfg=231   ctermbg=245   cterm=reverse
 
     highlight StatusLineNC      guifg=#a8a8a8  guibg=#eeeeee  gui=NONE      ctermfg=248   ctermbg=255   cterm=NONE
     highlight VertSplit         guifg=#bcbcbc  guibg=#e4e4e4  gui=NONE      ctermfg=250   ctermbg=254   cterm=NONE
@@ -360,12 +360,17 @@ if g:arcadia_Daybreak
     highlight NonText           guifg=#bcbcbc  guibg=NONE     gui=NONE      ctermfg=250   ctermbg=NONE  cterm=NONE
     highlight SpecialKey        guifg=#bcbcbc  guibg=NONE     gui=NONE      ctermfg=250   ctermbg=NONE  cterm=NONE
 
-    highlight Comment           guifg=#a8a8a8  guibg=NONE     gui=NONE      ctermfg=248   ctermbg=NONE  cterm=NONE
+    highlight Comment           guifg=#b2b2b2  guibg=NONE     gui=NONE      ctermfg=249   ctermbg=NONE  cterm=NONE
     highlight Folded            guifg=#767676  guibg=NONE     gui=NONE      ctermfg=243   ctermbg=NONE  cterm=NONE
 
-    "FIXME: add/change to COMMON ARCADIA HIGHLIGHTING for consistancy
-    highlight Question          guifg=#005f87  guibg=NONE     gui=NONE       ctermfg=24   ctermbg=NONE  cterm=NONE
-    highlight Cursor            guifg=#ffffff  guibg=#000000  gui=NONE       ctermfg=230  ctermbg=16    cterm=NONE
+    highlight Question          guifg=#005f87  guibg=NONE     gui=NONE      ctermfg=24   ctermbg=NONE  cterm=NONE
+    highlight Cursor            guifg=#ffffff  guibg=#000000  gui=NONE      ctermfg=231  ctermbg=16    cterm=NONE
+    highlight Operator          guifg=#767676  guibg=NONE     gui=NONE      ctermfg=243  ctermbg=NONE  cterm=NONE
+    highlight CursorLineNr      guifg=#ffffff  guibg=#8a8a8a  gui=reverse   ctermfg=231  ctermbg=245   cterm=reverse
+    highlight WildMenu          guifg=#ffffff  guibg=#8a8a8a  gui=reverse   ctermfg=231  ctermbg=245   cterm=reverse
+    "FIXME:
+    highlight MoreMsg           guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
+    highlight ModeMsg           guifg=#767676  guibg=NONE     gui=NONE       ctermfg=243    ctermbg=NONE  cterm=NONE
 endif
 
 
