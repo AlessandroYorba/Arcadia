@@ -9,8 +9,8 @@
 
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
-" UPDATED:      Nov 24GGst, 2017
-" LATEST CHANGES: Updates to Daybreak: Pmenu, Comments, Wildmenu, CursorLineNR
+" UPDATED:      Nov 24st, 2017
+" LATEST CHANGES: 
 
 
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
