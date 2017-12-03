@@ -1,6 +1,4 @@
-Arcadia 
--------
-
+![screenshot](https://user-images.githubusercontent.com/11221489/33523899-843136aa-d7c6-11e7-897d-8ac8437d4294.png)
 :space_invader: Set Up
 ------
 
