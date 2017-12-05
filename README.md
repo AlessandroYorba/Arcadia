@@ -1,7 +1,7 @@
 ![screenshot](https://user-images.githubusercontent.com/11221489/33523899-843136aa-d7c6-11e7-897d-8ac8437d4294.png)
 :space_invader: Set Up
 ------
-The default UI for Arcadia is a Grey. However, depending on certain lighting conditions, time of day or personal preference you might want to try some of the darker or lighter versions that are available. [screenshots of all modes](https://github.com/AlessandroYorba/Arcadia/issues/1).
+The default UI for Arcadia is Grey. However, depending on certain lighting conditions, time of day or personal preference you might want to try some of the darker or lighter versions that are available. [screenshots of all modes](https://github.com/AlessandroYorba/Arcadia/issues/1).
 
 ###### [Grey](https://user-images.githubusercontent.com/11221489/33523899-843136aa-d7c6-11e7-897d-8ac8437d4294.png)
 ```
