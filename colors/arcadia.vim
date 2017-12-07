@@ -10,7 +10,7 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
 " UPDATED:      Dec 6, 2017
-" LATEST CHANGES: New Pmenu
+" LATEST CHANGES: Brighter Comments fot Midnight and Pitch
 "
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
 " Terminal Theme:   Michael Reinhardt   https://github.com/mreinhardt
@@ -247,7 +247,7 @@ endif
 if g:arcadia_Midnight
     "COLORS
     highlight Normal            guifg=#dfdfdf  guibg=#121212  gui=NONE     ctermfg=188   ctermbg=233   cterm=NONE
-    highlight Comment           guifg=#444444  guibg=NONE     gui=NONE     ctermfg=238   ctermbg=NONE  cterm=NONE
+    highlight Comment           guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
     highlight StatusLine        guifg=#eeeeee  guibg=#1c1c1c  gui=NONE     ctermfg=255   ctermbg=234   cterm=NONE
@@ -273,7 +273,7 @@ endif
 if g:arcadia_Pitch
     "COLORS
     highlight Normal            guifg=#dfdfdf  guibg=#080808  gui=NONE     ctermfg=188   ctermbg=232   cterm=NONE
-    highlight Comment           guifg=#3a3a3a  guibg=NONE     gui=NONE     ctermfg=237   ctermbg=NONE  cterm=NONE
+    highlight Comment           guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
     highlight StatusLine        guifg=#eeeeee  guibg=#121212  gui=NONE     ctermfg=255   ctermbg=233   cterm=NONE
