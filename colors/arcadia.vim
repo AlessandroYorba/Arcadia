@@ -65,8 +65,8 @@
 "-------------------------------------|-----------------------------------------
 "   CURSOR         HEX                |                                        |
 "-------------------------------------|-----------------------------------------
-"   CursorColor   #dfdfdf             |                                        |
-"   CursorText    #303030             |                                        |
+"   CursorColor   #ffffff             |                                        |
+"   CursorText    #000000             |                                        |
 "-------------------------------------|-----------------------------------------
 "
 "-------------------------------------|-----------------------------------------
@@ -79,7 +79,7 @@
 "   Blue          #1c5f87      4      |      brBlue        #5f87af      12     |
 "   Magenta       #5f1c5f      5      |      brMagenta     #875f87      13     |
 "   Cyan          #005f87      6      |      brCyan        #0087af      14     |
-"   White         #afafaf      7      |      brWhite       #e4e4e4      15     |
+"   White         #e4e4e4      7      |      brWhite       #ffffff      15     |
 "-------------------------------------|-----------------------------------------
 
 " ARCADIA:
@@ -122,7 +122,6 @@ highlight Type                guifg=#af5f87  guibg=NONE     gui=NONE       cterm
 highlight Label               guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
 highlight String              guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30     ctermbg=NONE  cterm=NONE
 highlight Special             guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
-"highlight Operator            guifg=#b2b2b2  guibg=NONE     gui=NONE       ctermfg=249    ctermbg=NONE  cterm=NONE
 highlight Operator            guifg=#949494  guibg=NONE     gui=NONE       ctermfg=246    ctermbg=NONE  cterm=NONE
 highlight Title               guifg=#8787af  guibg=NONE     gui=NONE       ctermfg=103    ctermbg=NONE  cterm=NONE
 highlight StorageClass        guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
@@ -169,8 +168,7 @@ highlight SignColumn          guifg=#87af87  guibg=NONE     gui=NONE       cterm
 "DAY:
 if 1
     "COLORS
-    "highlight Normal            guifg=#e4e4e4  guibg=#303030  gui=NONE     ctermfg=254   ctermbg=236   cterm=NONE
-    highlight Normal            guifg=#c6c6c6  guibg=#303030  gui=NONE     ctermfg=251   ctermbg=236   cterm=NONE
+    highlight Normal            guifg=#e4e4e4  guibg=#303030  gui=NONE     ctermfg=254   ctermbg=236   cterm=NONE
     highlight Comment           guifg=#626262  guibg=NONE     gui=NONE     ctermfg=241   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
@@ -196,8 +194,7 @@ endif
 "SUNSET:
 if g:arcadia_Sunset
     "COLORS
-    "highlight Normal            guifg=#dfdfdf  guibg=#262626  gui=NONE     ctermfg=188   ctermbg=235   cterm=NONE
-    highlight Normal            guifg=#c6c6c6  guibg=#262626  gui=NONE     ctermfg=251   ctermbg=235   cterm=NONE
+    highlight Normal            guifg=#dfdfdf  guibg=#262626  gui=NONE     ctermfg=188   ctermbg=235   cterm=NONE
     highlight Comment           guifg=#585858  guibg=NONE     gui=NONE     ctermfg=240   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
@@ -223,8 +220,7 @@ endif
 "TWILIGHT:
 if g:arcadia_Twilight
     "COLORS
-    "highlight Normal            guifg=#dfdfdf  guibg=#1c1c1c  gui=NONE     ctermfg=188   ctermbg=234   cterm=NONE
-    highlight Normal            guifg=#c6c6c6  guibg=#1c1c1c  gui=NONE     ctermfg=251   ctermbg=234   cterm=NONE
+    highlight Normal            guifg=#dfdfdf  guibg=#1c1c1c  gui=NONE     ctermfg=188   ctermbg=234   cterm=NONE
     highlight Comment           guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
@@ -250,8 +246,7 @@ endif
 "MIDNIGHT:
 if g:arcadia_Midnight
     "COLORS
-    "highlight Normal            guifg=#dfdfdf  guibg=#121212  gui=NONE     ctermfg=188   ctermbg=233   cterm=NONE
-    highlight Normal            guifg=#c6c6c6  guibg=#121212  gui=NONE     ctermfg=251   ctermbg=233   cterm=NONE
+    highlight Normal            guifg=#dfdfdf  guibg=#121212  gui=NONE     ctermfg=188   ctermbg=233   cterm=NONE
     highlight Comment           guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
@@ -278,7 +273,6 @@ endif
 if g:arcadia_Pitch
     "COLORS
     highlight Normal            guifg=#dfdfdf  guibg=#080808  gui=NONE     ctermfg=188   ctermbg=232   cterm=NONE
-    highlight Normal            guifg=#c6c6c6  guibg=#080808  gui=NONE     ctermfg=251   ctermbg=232   cterm=NONE
     highlight Comment           guifg=#4e4e4e  guibg=NONE     gui=NONE     ctermfg=239   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
