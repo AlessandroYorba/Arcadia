@@ -9,8 +9,8 @@
 
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
-" UPDATED:      Dec 8, 2017
-" LATEST CHANGES: Testing darker Normal
+" UPDATED:      Jan 28, 2018
+" LATEST CHANGES: MoreMsg, WarningMsg, Search
 "
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
 " Terminal Theme:   Michael Reinhardt   https://github.com/mreinhardt
@@ -143,7 +143,8 @@ highlight SpellCap            guifg=#87afff  guibg=NONE     gui=undercurl  cterm
 highlight SpellRare           guifg=#ff8700  guibg=NONE     gui=undercurl  ctermfg=208    ctermbg=NONE  cterm=undercurl
 
 "WINDOW UI
-highlight MoreMsg             guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
+highlight MoreMsg             guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
+highlight WarningMsg          guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
 highlight SpecialComment      guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249    ctermbg=NONE  cterm=reverse
 highlight VimCommentTitle     guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249    ctermbg=NONE  cterm=reverse
 highlight Underlined          guifg=#af005f  guibg=NONE     gui=underline  ctermfg=125    ctermbg=NONE  cterm=underline
@@ -151,11 +152,10 @@ highlight FoldColumn          guifg=#8787af  guibg=NONE     gui=NONE       cterm
 highlight Todo                guifg=#0087af  guibg=NONE     gui=reverse    ctermfg=31     ctermbg=NONE  cterm=reverse
 highlight Visual              guifg=#008787  guibg=NONE     gui=reverse    ctermfg=30     ctermbg=NONE  cterm=reverse
 highlight Question            guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
-highlight Search              guifg=#0087af  guibg=NONE     gui=reverse    ctermfg=31     ctermbg=NONE  cterm=reverse
+highlight Search              guifg=#dfaf00  guibg=NONE     gui=reverse    ctermfg=178    ctermbg=NONE  cterm=reverse
 highlight MatchParen          guifg=#008787  guibg=NONE     gui=reverse    ctermfg=30     ctermbg=NONE  cterm=reverse
 highlight Error               guifg=#d75f5f  guibg=NONE     gui=reverse    ctermfg=167    ctermbg=NONE  cterm=reverse
 highlight ErrorMsg            guifg=#d75f5f  guibg=NONE     gui=NONE       ctermfg=167    ctermbg=NONE  cterm=NONE
-highlight WarningMsg          guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 highlight netrwExe            guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30     ctermbg=NONE  cterm=NONE
 highlight netrwList           guifg=#875f87  guibg=NONE     gui=NONE       ctermfg=96     ctermbg=NONE  cterm=NONE
 highlight Directory           guifg=#5f87af  guibg=NONE     gui=NONE       ctermfg=67     ctermbg=NONE  cterm=NONE
@@ -329,7 +329,7 @@ if g:arcadia_Daybreak
 endif
 
 " LICENSE:
-" Copyright (c) 2017 Alessandro Yorba
+" Copyright (c) 2018 Alessandro Yorba
 "
 " Permission is hereby granted, free of charge, to any person obtaining a copy
 " of this software and associated documentation files (the "Software"), to deal
