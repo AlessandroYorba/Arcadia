@@ -9,8 +9,8 @@
 
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
-" UPDATED:      Jan 28, 2018
-" LATEST CHANGES: MoreMsg, WarningMsg, Search
+" UPDATED:      March 20, 2018
+" LATEST CHANGES: Statement, Function, Identifier, Constant 
 "
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
 " Terminal Theme:   Michael Reinhardt   https://github.com/mreinhardt
@@ -116,8 +116,8 @@ endif
 highlight PreProc             guifg=#8787af  guibg=NONE     gui=NONE       ctermfg=103    ctermbg=NONE  cterm=NONE
 highlight Function            guifg=#875f87  guibg=NONE     gui=NONE       ctermfg=96     ctermbg=NONE  cterm=NONE
 highlight Identifier          guifg=#875f87  guibg=NONE     gui=NONE       ctermfg=96     ctermbg=NONE  cterm=NONE
-highlight Statement           guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
-highlight Constant            guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
+highlight Statement           guifg=#5f87af  guibg=NONE     gui=NONE       ctermfg=67     ctermbg=NONE  cterm=NONE
+highlight Constant            guifg=#5f87af  guibg=NONE     gui=NONE       ctermfg=67     ctermbg=NONE  cterm=NONE
 highlight Type                guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
 highlight Label               guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
 highlight String              guifg=#008787  guibg=NONE     gui=NONE       ctermfg=30     ctermbg=NONE  cterm=NONE
@@ -125,7 +125,7 @@ highlight Special             guifg=#5f5f87  guibg=NONE     gui=NONE       cterm
 highlight Operator            guifg=#949494  guibg=NONE     gui=NONE       ctermfg=246    ctermbg=NONE  cterm=NONE
 highlight Title               guifg=#8787af  guibg=NONE     gui=NONE       ctermfg=103    ctermbg=NONE  cterm=NONE
 highlight StorageClass        guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
-highlight htmlStatement       guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
+highlight htmlStatement       guifg=#5f87af  guibg=NONE     gui=NONE       ctermfg=67     ctermbg=NONE  cterm=NONE
 highlight htmlArg             guifg=#875f87  guibg=NONE     gui=NONE       ctermfg=96     ctermbg=NONE  cterm=NONE
 highlight htmlItalic          guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138    ctermbg=NONE  cterm=NONE
 highlight htmlSpecialTagName  guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
@@ -143,13 +143,13 @@ highlight SpellCap            guifg=#87afff  guibg=NONE     gui=undercurl  cterm
 highlight SpellRare           guifg=#ff8700  guibg=NONE     gui=undercurl  ctermfg=208    ctermbg=NONE  cterm=undercurl
 
 "WINDOW UI
-highlight MoreMsg             guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
-highlight WarningMsg          guifg=#0087af  guibg=NONE     gui=NONE       ctermfg=31     ctermbg=NONE  cterm=NONE
+highlight MoreMsg             guifg=#5f87af  guibg=NONE     gui=NONE       ctermfg=67     ctermbg=NONE  cterm=NONE
+highlight WarningMsg          guifg=#5f87af  guibg=NONE     gui=NONE       ctermfg=67     ctermbg=NONE  cterm=NONE
 highlight SpecialComment      guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249    ctermbg=NONE  cterm=reverse
 highlight VimCommentTitle     guifg=#b2b2b2  guibg=NONE     gui=reverse    ctermfg=249    ctermbg=NONE  cterm=reverse
 highlight Underlined          guifg=#af005f  guibg=NONE     gui=underline  ctermfg=125    ctermbg=NONE  cterm=underline
 highlight FoldColumn          guifg=#8787af  guibg=NONE     gui=NONE       ctermfg=103    ctermbg=NONE  cterm=NONE
-highlight Todo                guifg=#0087af  guibg=NONE     gui=reverse    ctermfg=31     ctermbg=NONE  cterm=reverse
+highlight Todo                guifg=#5f87af  guibg=NONE     gui=reverse    ctermfg=67     ctermbg=NONE  cterm=reverse
 highlight Visual              guifg=#008787  guibg=NONE     gui=reverse    ctermfg=30     ctermbg=NONE  cterm=reverse
 highlight Question            guifg=#dfaf00  guibg=NONE     gui=NONE       ctermfg=178    ctermbg=NONE  cterm=NONE
 highlight Search              guifg=#dfaf00  guibg=NONE     gui=reverse    ctermfg=178    ctermbg=NONE  cterm=reverse
