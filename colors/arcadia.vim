@@ -9,8 +9,8 @@
 
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
-" UPDATED:      March 20, 2018
-" LATEST CHANGES: Statement, Function, Identifier, Constant 
+" UPDATED:      March 22, 2018
+" LATEST CHANGES: Comments in Daybreak
 "
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
 " Terminal Theme:   Michael Reinhardt   https://github.com/mreinhardt
@@ -299,7 +299,7 @@ endif
 if g:arcadia_Daybreak
     "COLORS
     highlight Normal            guifg=#767676  guibg=#e4e4e4  gui=NONE      ctermfg=243   ctermbg=254   cterm=NONE
-    highlight Comment           guifg=#b2b2b2  guibg=NONE     gui=NONE      ctermfg=249   ctermbg=NONE  cterm=NONE
+    highlight Comment           guifg=#a8a8a8  guibg=NONE     gui=NONE      ctermfg=248   ctermbg=NONE  cterm=NONE
 
     "WINDOW UI
     highlight StatusLine        guifg=#6c6c6c  guibg=#eeeeee  gui=NONE      ctermfg=242   ctermbg=255   cterm=NONE
