@@ -1,6 +1,3 @@
-![Grey](https://user-images.githubusercontent.com/11221489/33702729-cb2f954a-dad9-11e7-9978-e380eb64537d.png)
-
-![Ivory](https://user-images.githubusercontent.com/11221489/33702955-b3c388e8-dada-11e7-8c8d-70fd6375105f.png)
 
 :space_invader: Set Up
 ------
