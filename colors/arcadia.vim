@@ -9,8 +9,8 @@
 
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Arcadia
-" UPDATED:      March 22, 2018
-" LATEST CHANGES: Revised Daybreak Normal, Pmenu, Statusline, Tabline, Cursorline
+" UPDATED:      August 10, 2018
+" LATEST CHANGES: Revised Statement
 "
 " MAINTAINER:       Alessandro Yorba    https://github.com/AlessandroYorba
 " Terminal Theme:   Michael Reinhardt   https://github.com/mreinhardt
@@ -116,7 +116,7 @@ endif
 highlight PreProc             guifg=#8787af  guibg=NONE     gui=NONE       ctermfg=103    ctermbg=NONE  cterm=NONE
 highlight Function            guifg=#875f87  guibg=NONE     gui=NONE       ctermfg=96     ctermbg=NONE  cterm=NONE
 highlight Identifier          guifg=#875f87  guibg=NONE     gui=NONE       ctermfg=96     ctermbg=NONE  cterm=NONE
-highlight Statement           guifg=#5f87af  guibg=NONE     gui=NONE       ctermfg=67     ctermbg=NONE  cterm=NONE
+highlight Statement           guifg=#875f87  guibg=NONE     gui=NONE       ctermfg=96     ctermbg=NONE  cterm=NONE
 highlight Constant            guifg=#5f87af  guibg=NONE     gui=NONE       ctermfg=67     ctermbg=NONE  cterm=NONE
 highlight Type                guifg=#af5f87  guibg=NONE     gui=NONE       ctermfg=132    ctermbg=NONE  cterm=NONE
 highlight Label               guifg=#5f5f87  guibg=NONE     gui=NONE       ctermfg=60     ctermbg=NONE  cterm=NONE
