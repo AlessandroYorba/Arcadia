@@ -50,4 +50,3 @@ Development branch [here](https://github.com/AlessandroYorba/Arcadia/tree/nightl
 [Alduin](https://github.com/AlessandroYorba/Alduin)<br>
 [Sierra](https://github.com/AlessandroYorba/Sierra)<br>
 [Despacio](https://github.com/AlessandroYorba/Despacio)<br>
-[Libertine](https://github.com/AlessandroYorba/Libertine)<br>
