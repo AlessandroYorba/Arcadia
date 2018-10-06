@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Arcadia
 
-"UPDATED: Oct 3, 2018
-"CHANGES: Reorganized Code
+"UPDATED: Oct 6, 2018
+"CHANGES: Removed Light Background Option
 
 "TERMINAL: Michael Reinhardt https://github.com/mreinhardt
 
@@ -30,10 +30,6 @@
 
 "BLACK
 "let g:arcadia_Pitch = 1
-"colorscheme arcadia
-
-"LIGHT BACKGROUND
-"let g:arcadia_Daybreak = 1
 "colorscheme arcadia
 
 "ARCADIA:
@@ -257,42 +253,6 @@ if g:arcadia_Pitch
 	highlight LineNr guifg=#4e4e4e guibg=#121212 gui=NONE ctermfg=239 ctermbg=233 cterm=NONE
 	highlight NonText guifg=#1c1c1c guibg=NONE gui=NONE ctermfg=234 ctermbg=NONE cterm=NONE
 	highlight SpecialKey guifg=#1c1c1c guibg=NONE gui=NONE ctermfg=234 ctermbg=NONE cterm=NONE
-endif
-
-"LIGHT BACKGROUND
-if g:arcadia_Daybreak
-	"COLORS
-	highlight Normal guifg=#767676 guibg=#e4e4e4 gui=NONE ctermfg=243 ctermbg=254 cterm=NONE
-	highlight Normal guifg=#767676 guibg=#eeeeee gui=NONE ctermfg=243 ctermbg=255 cterm=NONE
-	highlight Comment guifg=#a8a8a8 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
-
-	"WINDOW UI
-	highlight StatusLine guifg=#6c6c6c guibg=#ffffff gui=NONE ctermfg=242 ctermbg=231 cterm=NONE
-	highlight StatusLineNC guifg=#a8a8a8 guibg=#ffffff gui=NONE ctermfg=248 ctermbg=231 cterm=NONE
-	highlight StatusLineTerm guifg=#6c6c6c guibg=#ffffff gui=NONE ctermfg=242 ctermbg=231 cterm=NONE
-	highlight StatusLineTermNC guifg=#a8a8a8 guibg=#ffffff gui=NONE ctermfg=248 ctermbg=231 cterm=NONE
-	highlight Pmenu guifg=#a8a8a8 guibg=#ffffff gui=NONE ctermfg=248 ctermbg=231 cterm=NONE
-	highlight PmenuSel guifg=#eeeeee guibg=#008787 gui=NONE ctermfg=255 ctermbg=30 cterm=NONE
-	highlight PmenuSbar guifg=#ffffff guibg=#eeeeee gui=NONE ctermfg=231 ctermbg=231 cterm=NONE
-	highlight PmenuThumb guifg=#ffffff guibg=#ffffff gui=NONE ctermfg=231 ctermbg=231 cterm=NONE
-	highlight TabLine guifg=#a8a8a8 guibg=#ffffff gui=NONE ctermfg=248 ctermbg=231 cterm=NONE
-	highlight TabLineSel guifg=#6c6c6c guibg=#ffffff gui=NONE ctermfg=242 ctermbg=231 cterm=NONE
-	highlight TabLineFill guifg=#a8a8a8 guibg=#ffffff gui=NONE ctermfg=248 ctermbg=231 cterm=NONE
-	highlight Cursor guifg=#ffffff guibg=#000000 gui=NONE ctermfg=231 ctermbg=16 cterm=NONE
-	highlight CursorLine guifg=NONE guibg=#e4e4e4 gui=NONE ctermfg=NONE ctermbg=254 cterm=NONE
-	highlight CursorLineNr guifg=#008787 guibg=#eeeeee gui=reverse ctermfg=30 ctermbg=255 cterm=reverse
-	highlight CursorColumn guifg=NONE guibg=#ffffff gui=NONE ctermfg=NONE ctermbg=231 cterm=NONE
-	highlight ColorColumn guifg=NONE guibg=#ffffff gui=NONE ctermfg=NONE ctermbg=231 cterm=NONE
-	highlight Folded guifg=#767676 guibg=NONE gui=NONE ctermfg=243 ctermbg=NONE cterm=NONE
-	highlight VertSplit guifg=#bcbcbc guibg=#e4e4e4 gui=NONE ctermfg=250 ctermbg=254 cterm=NONE
-	highlight LineNr guifg=#bcbcbc guibg=#ffffff gui=NONE ctermfg=250 ctermbg=231 cterm=NONE
-	highlight NonText guifg=#ffffff guibg=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
-	highlight SpecialKey guifg=#ffffff guibg=NONE gui=NONE ctermfg=231 ctermbg=NONE cterm=NONE
-	highlight Question guifg=#005f87 guibg=NONE gui=NONE ctermfg=24 ctermbg=NONE cterm=NONE
-	highlight Operator guifg=#767676 guibg=NONE gui=NONE ctermfg=243 ctermbg=NONE cterm=NONE
-	highlight WildMenu guifg=#008787 guibg=#eeeeee gui=reverse ctermfg=30 ctermbg=255 cterm=reverse
-	highlight MoreMsg guifg=#dfaf00 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
-	highlight ModeMsg guifg=#767676 guibg=NONE gui=NONE ctermfg=243 ctermbg=NONE cterm=NONE
 endif
 
 "LICENSE
