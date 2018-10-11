@@ -1,3 +1,8 @@
+<p align="center">
+<img src="https://user-images.githubusercontent.com/11221489/46833675-1b185700-cd5e-11e8-94bc-53893f3abb5f.png"/>
+</p>
+
+![screenshot](https://user-images.githubusercontent.com/11221489/46833217-e6f06680-cd5c-11e8-963d-e856f934acba.png)
 
 :space_invader: Set Up
 ------
@@ -31,11 +36,6 @@ colorscheme arcadia
 let g:arcadia_Pitch = 1
 colorscheme arcadia
 ```
-###### [Ivory](https://user-images.githubusercontent.com/11221489/33702955-b3c388e8-dada-11e7-8c8d-70fd6375105f.png)
-```
-let g:arcadia_Daybreak = 1
-colorscheme arcadia
-```
 
 :crescent_moon: Dev Build
 ----------------------------
@@ -50,3 +50,4 @@ Development branch [here](https://github.com/AlessandroYorba/Arcadia/tree/nightl
 [Alduin](https://github.com/AlessandroYorba/Alduin)<br>
 [Sierra](https://github.com/AlessandroYorba/Sierra)<br>
 [Despacio](https://github.com/AlessandroYorba/Despacio)<br>
+[Breve](https://github.com/AlessandroYorba/Breve)<br>
