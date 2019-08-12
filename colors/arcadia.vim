@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Arcadia
 
-"UPDATED: Oct 6, 2018
-"CHANGES: Removed Light Background Option
+"UPDATED: August 12 2019
+"CHANGES: Added Vimscript and better Diff support
 
 "TERMINAL: Michael Reinhardt https://github.com/mreinhardt
 
@@ -80,11 +80,13 @@ highlight htmlArg guifg=#875f87 guibg=NONE gui=NONE ctermfg=96 ctermbg=NONE cter
 highlight htmlItalic guifg=#af8787 guibg=NONE gui=NONE ctermfg=138 ctermbg=NONE cterm=NONE
 highlight htmlSpecialTagName guifg=#af5f87 guibg=NONE gui=NONE ctermfg=132 ctermbg=NONE cterm=NONE
 
-"DIFF
-highlight DiffText guifg=#8787af guibg=NONE gui=reverse ctermfg=103 ctermbg=NONE cterm=reverse
-highlight DiffAdd guifg=#afafd7 guibg=NONE gui=reverse ctermfg=146 ctermbg=NONE cterm=reverse
-highlight DiffDelete guifg=#af5f5f guibg=NONE gui=reverse ctermfg=131 ctermbg=NONE cterm=reverse
-highlight DiffChange guifg=#5f5f87 guibg=NONE gui=reverse ctermfg=60 ctermbg=NONE cterm=reverse
+" VIMSCRIPT
+highlight link vimAutoCmdSfxList Type
+highlight link vimAutoEventList Identifier
+highlight link vimCmdSep Special
+highlight link vimCommentTitle SpecialComment
+highlight link vimFunction Function
+highlight link vimUserFunc Function
 
 "SPELLING
 highlight SpellBad guifg=#ff0000 guibg=NONE gui=undercurl ctermfg=196 ctermbg=NONE cterm=undercurl
@@ -114,6 +116,24 @@ highlight CursorLineNr guifg=#c6c6c6 guibg=NONE gui=reverse ctermfg=251 ctermbg=
 highlight WildMenu guifg=#c6c6c6 guibg=NONE gui=reverse ctermfg=251 ctermbg=NONE cterm=reverse
 highlight ModeMsg guifg=#dfdfdf guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE
 highlight SignColumn guifg=#87af87 guibg=NONE gui=NONE ctermfg=108 ctermbg=NONE cterm=NONE
+
+"DIFF
+highlight DiffText guifg=#8787af guibg=NONE gui=reverse ctermfg=103 ctermbg=NONE cterm=reverse
+highlight DiffAdd guifg=#afafd7 guibg=NONE gui=reverse ctermfg=146 ctermbg=NONE cterm=reverse
+highlight DiffDelete guifg=#af5f5f guibg=NONE gui=reverse ctermfg=131 ctermbg=NONE cterm=reverse
+highlight DiffChange guifg=#5f5f87 guibg=NONE gui=reverse ctermfg=60 ctermbg=NONE cterm=reverse
+highlight link diffAdded DiffAdd
+highlight link diffBDiffer WarningMsg
+highlight link diffChanged DiffChange
+highlight link diffCommon WarningMsg
+highlight link diffDiffer WarningMsg
+highlight link diffFile Directory
+highlight link diffIdentical WarningMsg
+highlight link diffIndexLine Number
+highlight link diffIsA WarningMsg
+highlight link diffNoEOL WarningMsg
+highlight link diffOnly WarningMsg
+highlight link diffRemoved DiffDelete
 
 "DEFAULT
 if 1

@@ -1,7 +1,3 @@
-<p align="center">
-<img src="https://user-images.githubusercontent.com/11221489/46833675-1b185700-cd5e-11e8-94bc-53893f3abb5f.png"/>
-</p>
-
 ![screenshot](https://user-images.githubusercontent.com/11221489/46833217-e6f06680-cd5c-11e8-963d-e856f934acba.png)
 
 :space_invader: Set Up
