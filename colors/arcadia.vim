@@ -1,7 +1,7 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Arcadia
 
-"UPDATED: December 9th, 2019
+"UPDATED: January 23rd, 2020
 "CHANGES: CursorLineNR changes
 
 "TERMINAL: Michael Reinhardt https://github.com/mreinhardt
@@ -56,10 +56,6 @@ endif
 
 if !exists("g:arcadia_Pitch")
 	let g:arcadia_Pitch = 0
-endif
-
-if !exists("g:arcadia_Daybreak")
-let g:arcadia_Daybreak = 0
 endif
 
 "COMMON COLORS AND SETTINGS
@@ -199,7 +195,7 @@ endif
 "DARKEST GRAY
 if g:arcadia_Twilight
 	"COLORS
-	highlight Normal guifg=#dfdfdf guibg=#1c1c1c gui=NONE ctermfg=188 ctermbg=234 cterm=NONE
+	highlight Normal guifg=#bcbcbc guibg=#1c1c1c gui=NONE ctermfg=250 ctermbg=234 cterm=NONE
 	highlight Comment guifg=#4e4e4e guibg=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
 
 	"WINDOW UI
@@ -230,7 +226,7 @@ endif
 "ALMOST BLACK
 if g:arcadia_Midnight
 	"COLORS
-	highlight Normal guifg=#dfdfdf guibg=#121212 gui=NONE ctermfg=188 ctermbg=233 cterm=NONE
+	highlight Normal guifg=#bcbcbc guibg=#121212 gui=NONE ctermfg=250 ctermbg=233 cterm=NONE
 	highlight Comment guifg=#4e4e4e guibg=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
 
 	"WINDOW UI
@@ -261,7 +257,7 @@ endif
 "BLACK
 if g:arcadia_Pitch
 	"COLORS
-	highlight Normal guifg=#dfdfdf guibg=#080808 gui=NONE ctermfg=188 ctermbg=232 cterm=NONE
+	highlight Normal guifg=#bcbcbc guibg=#080808 gui=NONE ctermfg=250 ctermbg=232 cterm=NONE
 	highlight Comment guifg=#4e4e4e guibg=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
 
 	"WINDOW UI
@@ -290,7 +286,7 @@ if g:arcadia_Pitch
 endif
 
 "LICENSE
-"Copyright (c) 2018 Alessandro Yorba
+"Copyright (c) 2020 Alessandro Yorba
 "
 "Permission is hereby granted, free of charge, to any person obtaining a copy
 "of this software and associated documentation files (the "Software"), to deal
