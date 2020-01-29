@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Arcadia
 
-"UPDATED: January 25th, 2020
-"CHANGES: htmlStatement, Visual, Search
+"UPDATED: January 28th, 2020
+"CHANGES: VIMSCRIPT longhand
 
 "TERMINAL: Michael Reinhardt https://github.com/mreinhardt
 
@@ -77,12 +77,12 @@ highlight htmlItalic guifg=#af8787 guibg=NONE gui=NONE ctermfg=138 ctermbg=NONE 
 highlight htmlSpecialTagName guifg=#af5f87 guibg=NONE gui=NONE ctermfg=132 ctermbg=NONE cterm=NONE
 
 " VIMSCRIPT
-highlight link vimAutoCmdSfxList Type
-highlight link vimAutoEventList Identifier
-highlight link vimCmdSep Special
-highlight link vimCommentTitle SpecialComment
-highlight link vimFunction Function
-highlight link vimUserFunc Function
+highlight vimAutoCmdSfxList guifg=#af5f87 guibg=NONE gui=NONE ctermfg=132 ctermbg=NONE cterm=NONE
+highlight vimAutoEventList guifg=#875f87 guibg=NONE gui=NONE ctermfg=96 ctermbg=NONE cterm=NONE
+highlight vimCmdSep guifg=#5f5f87 guibg=NONE gui=NONE ctermfg=60 ctermbg=NONE cterm=NONE
+highlight vimCommentTitle guifg=#767676 guibg=NONE gui=reverse ctermfg=243 ctermbg=NONE cterm=reverse
+highlight vimFunction guifg=#875f87 guibg=NONE gui=NONE ctermfg=96 ctermbg=NONE cterm=NONE
+highlight vimUserFunc guifg=#875f87 guibg=NONE gui=NONE ctermfg=96 ctermbg=NONE cterm=NONE
 
 "SPELLING
 highlight SpellBad guifg=#ff0000 guibg=NONE gui=undercurl ctermfg=196 ctermbg=NONE cterm=undercurl
