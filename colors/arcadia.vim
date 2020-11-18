@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Arcadia
 
-"UPDATED: January 28th, 2020
-"CHANGES: VIMSCRIPT longhand
+"UPDATED: Wed Nov 18th, 2020
+"CHANGES: Default background is now what was previously named as Sunset
 
 "TERMINAL: Michael Reinhardt https://github.com/mreinhardt
 
@@ -14,10 +14,6 @@
 "Windows users, place arcadia.vim in ~\vimfiles\colors
 "From your .vimrc add one of the following options
 
-"colorscheme arcadia
-
-"DARKER GRAY
-"let g:arcadia_Sunset = 1
 "colorscheme arcadia
 
 "DARKEST GRAY
@@ -42,9 +38,6 @@ endif
 
 let g:colors_name="arcadia"
 
-if !exists("g:arcadia_Sunset")
-	let g:arcadia_Sunset = 0
-endif
 
 if !exists("g:arcadia_Twilight")
 	let g:arcadia_Twilight = 0
@@ -68,6 +61,10 @@ highlight Type guifg=#af5f87 guibg=NONE gui=NONE ctermfg=132 ctermbg=NONE cterm=
 highlight Label guifg=#5f5f87 guibg=NONE gui=NONE ctermfg=60 ctermbg=NONE cterm=NONE
 highlight String guifg=#008787 guibg=NONE gui=NONE ctermfg=30 ctermbg=NONE cterm=NONE
 highlight Special guifg=#5f5f87 guibg=NONE gui=NONE ctermfg=60 ctermbg=NONE cterm=NONE
+
+"SHOULD SPECIALS BE BLUE?
+"highlight Special guifg=#5f87af guibg=NONE gui=NONE ctermfg=67 ctermbg=NONE cterm=NONE
+
 highlight Operator guifg=#949494 guibg=NONE gui=NONE ctermfg=246 ctermbg=NONE cterm=NONE
 highlight Title guifg=#8787af guibg=NONE gui=NONE ctermfg=103 ctermbg=NONE cterm=NONE
 highlight StorageClass guifg=#af5f87 guibg=NONE gui=NONE ctermfg=132 ctermbg=NONE cterm=NONE
@@ -130,40 +127,8 @@ highlight link diffNoEOL WarningMsg
 highlight link diffOnly WarningMsg
 highlight link diffRemoved DiffDelete
 
-"DEFAULT
+""DEFAULT
 if 1
-	"COLORS
-	highlight Normal guifg=#bcbcbc guibg=#303030 gui=NONE ctermfg=250 ctermbg=236 cterm=NONE
-	highlight Comment guifg=#626262 guibg=NONE gui=NONE ctermfg=241 ctermbg=NONE cterm=NONE
-
-	"WINDOW UI
-	highlight StatusLine guifg=#eeeeee guibg=#262626 gui=NONE ctermfg=255 ctermbg=235 cterm=NONE
-	highlight StatusLineNC guifg=#767676 guibg=#262626 gui=NONE ctermfg=243 ctermbg=235 cterm=NONE
-	highlight StatusLineTerm guifg=#eeeeee guibg=#262626 gui=NONE ctermfg=255 ctermbg=235 cterm=NONE
-	highlight StatusLineTermNC guifg=#767676 guibg=#262626 gui=NONE ctermfg=243 ctermbg=235 cterm=NONE
-
-	highlight Pmenu guifg=#767676 guibg=#3a3a3a gui=NONE ctermfg=243 ctermbg=237 cterm=NONE
-	highlight PmenuSel guifg=#eeeeee guibg=#3a3a3a gui=NONE ctermfg=255 ctermbg=237 cterm=NONE
-	highlight PmenuSbar guifg=#3a3a3a guibg=#3a3a3a gui=NONE ctermfg=237 ctermbg=237 cterm=NONE
-	highlight PmenuThumb guifg=#3a3a3a guibg=#3a3a3a gui=NONE ctermfg=237 ctermbg=237 cterm=NONE
-	highlight TabLine guifg=#5f5f87 guibg=#262626 gui=NONE ctermfg=60 ctermbg=235 cterm=NONE
-	highlight TabLineSel guifg=#eeeeee guibg=#262626 gui=NONE ctermfg=255 ctermbg=235 cterm=NONE
-	highlight TabLineFill guifg=NONE guibg=#262626 gui=NONE ctermfg=NONE ctermbg=235 cterm=NONE
-
-	highlight CursorLineNR guifg=#9e9e9e guibg=#262626 gui=NONE ctermfg=247 ctermbg=235 cterm=NONE
-	highlight CursorLine guifg=NONE guibg=#3a3a3a gui=NONE ctermfg=NONE ctermbg=237 cterm=NONE
-	highlight CursorColumn guifg=NONE guibg=#3a3a3a gui=NONE ctermfg=NONE ctermbg=237 cterm=NONE
-	highlight ColorColumn guifg=NONE guibg=#3a3a3a gui=NONE ctermfg=NONE ctermbg=237 cterm=NONE
-	highlight Folded guifg=#767676 guibg=NONE gui=NONE ctermfg=243 ctermbg=NONE cterm=NONE
-	highlight VertSplit guifg=#444444 guibg=#303030 gui=NONE ctermfg=238 ctermbg=236 cterm=NONE
-	highlight LineNr guifg=#4e4e4e guibg=#262626 gui=NONE ctermfg=239 ctermbg=235 cterm=NONE
-	highlight NonText guifg=#444444 guibg=NONE gui=NONE ctermfg=238 ctermbg=NONE cterm=NONE
-	highlight SpecialKey guifg=#444444 guibg=NONE gui=NONE ctermfg=238 ctermbg=NONE cterm=NONE
-endif
-
-"DARKER GRAY
-if g:arcadia_Sunset
-	"COLORS
 	highlight Normal guifg=#bcbcbc guibg=#262626 gui=NONE ctermfg=250 ctermbg=235 cterm=NONE
 	highlight Comment guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
 
