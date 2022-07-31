@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Arcadia
 
-"UPDATED: Wed Nov 18th, 2020
-"CHANGES: Default background is now what was previously named as Sunset
+"UPDATED: July 31st 2022
+"CHANGES: 
 
 "TERMINAL: Michael Reinhardt https://github.com/mreinhardt
 
