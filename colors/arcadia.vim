@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Arcadia
 
-"UPDATED: Wed Aug 15, 2022
-"CHANGES: Pitch is DEFAULT, updated ansi
+"UPDATED: Thur Aug 18, 2022
+"CHANGES: link diffFile Blue
 
 "TERMINAL: Michael Reinhardt https://github.com/mreinhardt
 
@@ -86,7 +86,7 @@ highlight! link MoreMsg Blue
 highlight! link Directory Blue
 highlight! link Special Blue
 highlight! link htmlItalic Blue
-highlight link diffFile Blue
+highlight! link diffFile Blue
 
 "BLUE_REVERSE:
 highlight! Blue_Reverse guifg=#5f87af guibg=NONE gui=reverse ctermfg=67 ctermbg=NONE cterm=reverse
@@ -99,7 +99,7 @@ highlight! link StorageClass Red
 highlight! link htmlSpecialTagName Red
 highlight! link vimAutoCmdSfxList Red
 
-"TODO: Should the following be Red_Reverse
+"TODO: 
 highlight! link ErrorMsg Red
 highlight! link WarningMsg Red
 highlight! link diffBDiffer Red
@@ -153,7 +153,6 @@ highlight Cursor guifg=#000000 guibg=#ffffff gui=NONE ctermfg=16 ctermbg=231 cte
 highlight ModeMsg guifg=#dfdfdf guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE
 highlight SignColumn guifg=#87af87 guibg=NONE gui=NONE ctermfg=108 ctermbg=NONE cterm=NONE
 
-"DIFF
 
 "DEFAULT:
 "WINDOW UI
@@ -207,3 +206,4 @@ endif
 "LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 "OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 "THE SOFTWARE.
+
