@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Arcadia
 
-"UPDATED: Thur Aug 18, 2022
-"CHANGES: link diffFile Blue
+"UPDATED: Mon Aug 22, 2022
+"CHANGES: lite Organization, revised ansi, testing Comment color
 
 "TERMINAL: Michael Reinhardt https://github.com/mreinhardt
 
@@ -32,7 +32,7 @@ let g:terminal_ansi_colors = [
 	\ '#008787',
 	\ '#dfaf00',
 	\ '#5f87af',
-	\ '#87af87',
+	\ '#875F87',
 	\ '#8787af',
 	\ '#bcbcbc',
 	\ '#4e4e4e',
@@ -44,8 +44,9 @@ let g:terminal_ansi_colors = [
 	\ '#8787af',
 	\ '#bcbcbc',]
 
-"COMMON COLORS AND SETTINGS
-"PURPLE:
+"COLORS AND GROUPINGS:
+
+"PURPLE
 highlight! Purple guifg=#875f87 guibg=NONE gui=NONE ctermfg=96 ctermbg=NONE cterm=NONE
 highlight! link Function Purple
 highlight! link Identifier Purple
@@ -57,7 +58,7 @@ highlight! link vimUserFunc Purple
 highlight! link netrwList Purple
 highlight! link htmlStatement Purple
 
-"PURPLE_LIGHT:
+"PURPLE_LIGHT
 highlight! Purple_Light guifg=#8787af guibg=NONE gui=NONE ctermfg=103 ctermbg=NONE cterm=NONE
 highlight! link PreProc Purple_Light
 highlight! link Title Purple_Light
@@ -69,18 +70,18 @@ highlight! link diffIndexLine Purple_Light
 highlight! Purple_Light_Reverse guifg=#8787af guibg=NONE gui=reverse ctermfg=103 ctermbg=NONE cterm=reverse
 highlight! link DiffText Purple_Light_Reverse
 
-"PURPLE_DARK:
+"PURPLE_DARK
 highlight! Purple_Dark guifg=#5f5f87 guibg=NONE gui=NONE ctermfg=60 ctermbg=NONE cterm=NONE
 highlight! link vimCmdSep Purple_Dark
 highlight! link Label Purple_Dark
 highlight! link Conditional Purple_Dark
 
-"PURPLE_DARK_REVERSE:
+"PURPLE_DARK_REVERSE
 highlight! Purple_Dark_Reverse guifg=#5f5f87 guibg=NONE gui=NONE ctermfg=60 ctermbg=NONE cterm=NONE
 highlight! link DiffChange Purple_Dark_Reverse
 highlight! link diffChanged Purple_Dark_Reverse
 
-"BLUE:
+"BLUE
 highlight! Blue guifg=#5f87af guibg=NONE gui=NONE ctermfg=67 ctermbg=NONE cterm=NONE
 highlight! link MoreMsg Blue
 highlight! link Directory Blue
@@ -88,18 +89,17 @@ highlight! link Special Blue
 highlight! link htmlItalic Blue
 highlight! link diffFile Blue
 
-"BLUE_REVERSE:
+"BLUE_REVERSE
 highlight! Blue_Reverse guifg=#5f87af guibg=NONE gui=reverse ctermfg=67 ctermbg=NONE cterm=reverse
 highlight! link Todo Blue_Reverse
 
-"RED:
+"RED
 highlight! Red guifg=#af5f87 guibg=NONE gui=NONE ctermfg=132 ctermbg=NONE cterm=NONE
 highlight! link Type Red
 highlight! link StorageClass Red
 highlight! link htmlSpecialTagName Red
 highlight! link vimAutoCmdSfxList Red
 
-"TODO: 
 highlight! link ErrorMsg Red
 highlight! link WarningMsg Red
 highlight! link diffBDiffer Red
@@ -110,28 +110,28 @@ highlight! link diffIsA Red
 highlight! link diffNoEOL Red
 highlight! link diffOnly Red
 
-"RED_REVERSE:
+"RED_REVERSE
 highlight! Red_Reverse guifg=#d75f5f guibg=NONE gui=reverse ctermfg=167 ctermbg=NONE cterm=reverse
 highlight! link Error Red_Reverse
 highlight! link DiffDelete Red_Reverse
 highlight! link diffRemoved Red_Reverse
 
-"GREEN:
+"GREEN
 highlight! Green guifg=#008787 guibg=NONE gui=NONE ctermfg=30 ctermbg=NONE cterm=NONE
 highlight! link String Green
 highlight! link netrwExe Green
 
-"GREEN_REVERSE:
+"GREEN_REVERSE
 highlight! Green_Reverse guifg=#008787 guibg=NONE gui=reverse ctermfg=30 ctermbg=NONE cterm=reverse
 highlight! link MatchParen Green_Reverse
 highlight! link DiffAdd Green_Reverse
 highlight! link diffAdded Green_Reverse
 
-"GREY:
+"GREY
 highlight! Grey guifg=#949494 guibg=NONE gui=NONE ctermfg=246 ctermbg=NONE cterm=NONE
 highlight! link Operator Grey
 
-"GREY_REVERSE:
+"GREY_REVERSE
 highlight! Grey_Reverse guifg=#949494 guibg=NONE gui=reverse ctermfg=246 ctermbg=NONE cterm=reverse
 highlight! link vimCommentTitle Grey_Reverse
 highlight! link SpecialComment Grey_Reverse
@@ -139,11 +139,11 @@ highlight! link VimCommentTitle Grey_Reverse
 highlight! link Visual Grey_Reverse
 highlight! link WildMenu Grey_Reverse
 
-"YELLOW:
+"YELLOW
 highlight! Yellow guifg=#dfaf00 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
 highlight! link Question Yellow
 
-"YELLOW_REVERSE:
+"YELLOW_REVERSE
 highlight! Yellow_Reverse guifg=#dfaf00 guibg=NONE gui=reverse ctermfg=178 ctermbg=NONE cterm=reverse
 highlight! link Search Yellow_Reverse
 
@@ -152,16 +152,21 @@ highlight Underlined guifg=#bcbcbc guibg=NONE gui=underline ctermfg=250 ctermbg=
 highlight Cursor guifg=#000000 guibg=#ffffff gui=NONE ctermfg=16 ctermbg=231 cterm=NONE
 highlight ModeMsg guifg=#dfdfdf guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE
 highlight SignColumn guifg=#87af87 guibg=NONE gui=NONE ctermfg=108 ctermbg=NONE cterm=NONE
+highlight VisualNOS guifg=NONE guibg=NONE gui=underline ctermfg=NONE ctermbg=NONE cterm=underline
+highlight SpellBad guifg=#ff0000 guibg=NONE gui=undercurl ctermfg=196 ctermbg=NONE cterm=undercurl
+highlight SpellLocal guifg=#5f875f guibg=NONE gui=undercurl ctermfg=65 ctermbg=NONE cterm=undercurl
+highlight SpellCap guifg=#87afff guibg=NONE gui=undercurl ctermfg=111 ctermbg=NONE cterm=undercurl
+highlight SpellRare guifg=#ff8700 guibg=NONE gui=undercurl ctermfg=208 ctermbg=NONE cterm=undercurl
 
 
-"DEFAULT:
-"WINDOW UI
+"WINDOW UI:
 if 1
-	"COLORS
 	highlight Normal guifg=#bcbcbc guibg=#080808 gui=NONE ctermfg=250 ctermbg=232 cterm=NONE
-	highlight Comment guifg=#4e4e4e guibg=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
+	"highlight Comment guifg=#4e4e4e guibg=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
 
-	"WINDOW UI
+	"TESTING: if used change ansi to match
+	highlight Comment guifg=#626262 guibg=NONE gui=NONE ctermfg=241 ctermbg=NONE cterm=NONE
+
 	highlight StatusLine guifg=#eeeeee guibg=#121212 gui=NONE ctermfg=255 ctermbg=233 cterm=NONE
 	highlight StatusLineNC guifg=#4e4e4e guibg=#121212 gui=NONE ctermfg=239 ctermbg=233 cterm=NONE
 	highlight StatusLineTerm guifg=#eeeeee guibg=#121212 gui=NONE ctermfg=255 ctermbg=233 cterm=NONE
