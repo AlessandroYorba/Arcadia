@@ -1,7 +1,7 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Arcadia
 
-"UPDATED: Mon Aug 22, 2022
+"UPDATED: Thur Sept 01, 2022
 "CHANGES: lite Organization, revised ansi, testing Comment color
 
 "TERMINAL: Michael Reinhardt https://github.com/mreinhardt
@@ -46,7 +46,7 @@ let g:terminal_ansi_colors = [
 
 "COLORS AND GROUPINGS:
 
-"PURPLE
+"Purple:
 highlight! Purple guifg=#875f87 guibg=NONE gui=NONE ctermfg=96 ctermbg=NONE cterm=NONE
 highlight! link Function Purple
 highlight! link Identifier Purple
@@ -58,7 +58,7 @@ highlight! link vimUserFunc Purple
 highlight! link netrwList Purple
 highlight! link htmlStatement Purple
 
-"PURPLE_LIGHT
+"Purple_Light:
 highlight! Purple_Light guifg=#8787af guibg=NONE gui=NONE ctermfg=103 ctermbg=NONE cterm=NONE
 highlight! link PreProc Purple_Light
 highlight! link Title Purple_Light
@@ -66,22 +66,22 @@ highlight! link FoldColumn Purple_Light
 highlight! link Constant Purple_Light
 highlight! link diffIndexLine Purple_Light
 
-
+"Purple_Light_Reverse:
 highlight! Purple_Light_Reverse guifg=#8787af guibg=NONE gui=reverse ctermfg=103 ctermbg=NONE cterm=reverse
 highlight! link DiffText Purple_Light_Reverse
 
-"PURPLE_DARK
+"Purple_Dark:
 highlight! Purple_Dark guifg=#5f5f87 guibg=NONE gui=NONE ctermfg=60 ctermbg=NONE cterm=NONE
 highlight! link vimCmdSep Purple_Dark
 highlight! link Label Purple_Dark
 highlight! link Conditional Purple_Dark
 
-"PURPLE_DARK_REVERSE
+"Purple_Dark_Reverse:
 highlight! Purple_Dark_Reverse guifg=#5f5f87 guibg=NONE gui=NONE ctermfg=60 ctermbg=NONE cterm=NONE
 highlight! link DiffChange Purple_Dark_Reverse
 highlight! link diffChanged Purple_Dark_Reverse
 
-"BLUE
+"Blue:
 highlight! Blue guifg=#5f87af guibg=NONE gui=NONE ctermfg=67 ctermbg=NONE cterm=NONE
 highlight! link MoreMsg Blue
 highlight! link Directory Blue
@@ -89,11 +89,11 @@ highlight! link Special Blue
 highlight! link htmlItalic Blue
 highlight! link diffFile Blue
 
-"BLUE_REVERSE
+"Blue_Reverse:
 highlight! Blue_Reverse guifg=#5f87af guibg=NONE gui=reverse ctermfg=67 ctermbg=NONE cterm=reverse
 highlight! link Todo Blue_Reverse
 
-"RED
+"Red:
 highlight! Red guifg=#af5f87 guibg=NONE gui=NONE ctermfg=132 ctermbg=NONE cterm=NONE
 highlight! link Type Red
 highlight! link StorageClass Red
@@ -110,28 +110,28 @@ highlight! link diffIsA Red
 highlight! link diffNoEOL Red
 highlight! link diffOnly Red
 
-"RED_REVERSE
+"Red_Reverse:
 highlight! Red_Reverse guifg=#d75f5f guibg=NONE gui=reverse ctermfg=167 ctermbg=NONE cterm=reverse
 highlight! link Error Red_Reverse
 highlight! link DiffDelete Red_Reverse
 highlight! link diffRemoved Red_Reverse
 
-"GREEN
+"Green:
 highlight! Green guifg=#008787 guibg=NONE gui=NONE ctermfg=30 ctermbg=NONE cterm=NONE
 highlight! link String Green
 highlight! link netrwExe Green
 
-"GREEN_REVERSE
+"Green_Reverse:
 highlight! Green_Reverse guifg=#008787 guibg=NONE gui=reverse ctermfg=30 ctermbg=NONE cterm=reverse
 highlight! link MatchParen Green_Reverse
 highlight! link DiffAdd Green_Reverse
 highlight! link diffAdded Green_Reverse
 
-"GREY
+"Grey:
 highlight! Grey guifg=#949494 guibg=NONE gui=NONE ctermfg=246 ctermbg=NONE cterm=NONE
 highlight! link Operator Grey
 
-"GREY_REVERSE
+"Grey_Reverse:
 highlight! Grey_Reverse guifg=#949494 guibg=NONE gui=reverse ctermfg=246 ctermbg=NONE cterm=reverse
 highlight! link vimCommentTitle Grey_Reverse
 highlight! link SpecialComment Grey_Reverse
@@ -139,33 +139,21 @@ highlight! link VimCommentTitle Grey_Reverse
 highlight! link Visual Grey_Reverse
 highlight! link WildMenu Grey_Reverse
 
-"YELLOW
+"Yellow:
 highlight! Yellow guifg=#dfaf00 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
 highlight! link Question Yellow
 
-"YELLOW_REVERSE
+"Yellow_Reverse:
 highlight! Yellow_Reverse guifg=#dfaf00 guibg=NONE gui=reverse ctermfg=178 ctermbg=NONE cterm=reverse
 highlight! link Search Yellow_Reverse
-
-"TODO:
-highlight Underlined guifg=#bcbcbc guibg=NONE gui=underline ctermfg=250 ctermbg=NONE cterm=underline
-highlight Cursor guifg=#000000 guibg=#ffffff gui=NONE ctermfg=16 ctermbg=231 cterm=NONE
-highlight ModeMsg guifg=#dfdfdf guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE
-highlight SignColumn guifg=#87af87 guibg=NONE gui=NONE ctermfg=108 ctermbg=NONE cterm=NONE
-highlight VisualNOS guifg=NONE guibg=NONE gui=underline ctermfg=NONE ctermbg=NONE cterm=underline
-highlight SpellBad guifg=#ff0000 guibg=NONE gui=undercurl ctermfg=196 ctermbg=NONE cterm=undercurl
-highlight SpellLocal guifg=#5f875f guibg=NONE gui=undercurl ctermfg=65 ctermbg=NONE cterm=undercurl
-highlight SpellCap guifg=#87afff guibg=NONE gui=undercurl ctermfg=111 ctermbg=NONE cterm=undercurl
-highlight SpellRare guifg=#ff8700 guibg=NONE gui=undercurl ctermfg=208 ctermbg=NONE cterm=undercurl
-
 
 "WINDOW UI:
 if 1
 	highlight Normal guifg=#bcbcbc guibg=#080808 gui=NONE ctermfg=250 ctermbg=232 cterm=NONE
-	"highlight Comment guifg=#4e4e4e guibg=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
+	highlight Comment guifg=#4e4e4e guibg=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
 
 	"TESTING: if used change ansi to match
-	highlight Comment guifg=#626262 guibg=NONE gui=NONE ctermfg=241 ctermbg=NONE cterm=NONE
+	"highlight Comment guifg=#626262 guibg=NONE gui=NONE ctermfg=241 ctermbg=NONE cterm=NONE
 
 	highlight StatusLine guifg=#eeeeee guibg=#121212 gui=NONE ctermfg=255 ctermbg=233 cterm=NONE
 	highlight StatusLineNC guifg=#4e4e4e guibg=#121212 gui=NONE ctermfg=239 ctermbg=233 cterm=NONE
@@ -189,6 +177,17 @@ if 1
 	highlight LineNr guifg=#4e4e4e guibg=#121212 gui=NONE ctermfg=239 ctermbg=233 cterm=NONE
 	highlight NonText guifg=#1c1c1c guibg=NONE gui=NONE ctermfg=234 ctermbg=NONE cterm=NONE
 	highlight SpecialKey guifg=#1c1c1c guibg=NONE gui=NONE ctermfg=234 ctermbg=NONE cterm=NONE
+
+	highlight Underlined guifg=#bcbcbc guibg=NONE gui=underline ctermfg=250 ctermbg=NONE cterm=underline
+	highlight Cursor guifg=#000000 guibg=#ffffff gui=NONE ctermfg=16 ctermbg=231 cterm=NONE
+	highlight ModeMsg guifg=#dfdfdf guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE
+	highlight SignColumn guifg=#87af87 guibg=NONE gui=NONE ctermfg=108 ctermbg=NONE cterm=NONE
+	highlight VisualNOS guifg=NONE guibg=NONE gui=underline ctermfg=NONE ctermbg=NONE cterm=underline
+
+	highlight SpellBad guifg=#ff0000 guibg=NONE gui=undercurl ctermfg=196 ctermbg=NONE cterm=undercurl
+	highlight SpellLocal guifg=#5f875f guibg=NONE gui=undercurl ctermfg=65 ctermbg=NONE cterm=undercurl
+	highlight SpellCap guifg=#87afff guibg=NONE gui=undercurl ctermfg=111 ctermbg=NONE cterm=undercurl
+	highlight SpellRare guifg=#ff8700 guibg=NONE gui=undercurl ctermfg=208 ctermbg=NONE cterm=undercurl
 endif
 
 "LICENSE
